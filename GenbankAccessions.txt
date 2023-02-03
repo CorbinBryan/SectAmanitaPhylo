@@ -35,3 +35,4 @@ AB080782.1
 AB080781.1
 AB080780.1
 # Amanita persicina
+OP480716.1
