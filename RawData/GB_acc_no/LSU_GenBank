@@ -66,3 +66,10 @@ OK299169
 # A. austrowellsii - no seq -- LSU + ITS combined in seqs in ITS_GenBank file (should be in dir with this file)
 # A. parcivolvata 
 MN963584
+# A. rubescens -- contains LSU and ITS 
+MW894638.1
+MW894637.1
+MW894636.1
+MW894635.1
+MW894633.1
+MH620273.1 # partial LSU?
