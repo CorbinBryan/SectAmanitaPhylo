@@ -1,0 +1,68 @@
+#!/bin/bash
+# A. frostiana
+AF024453
+# A. regalis
+LT594941.1
+# A. persicina
+AF097367.1
+EU071963
+EU071964
+EU071965
+EU071968
+EU071969
+EU071995
+# A. chrysoblema (= A. muscaria var. alba s. Jenkins non s. auct. europaeis)
+EU071984
+# A. muscaria var. guessowii 
+EU071970
+EU071974
+EU071976
+EU071989
+EU071990
+EU071992
+# A. muscaria subsp. flavivolvata
+EU071966
+EU071977
+EU071983
+HQ539712.1
+HQ539816.1
+# A. muscaria var. formosa (= A. muscaria f. formosa?) - no seqs
+# A. muscaria var. muscaria
+EU071967
+EU071971
+EU071972
+EU071982
+EU071985
+EU071987
+EU071988
+EU071991
+KP866168	
+EU071993
+# A. gioiosa - no seqs
+# A. breckonii
+KJ535440
+# A. ameripantherina nom. prov. s. RET
+HQ539707
+MT406076
+MT406077
+MT406078
+MT406081
+MT406067 #contains nrITS + nrLSU 
+MT406068 #contains nrITS + nrLSU 
+MT406068 #contains nrITS + nrLSU 
+MT406069 #contains nrITS + nrLSU 
+MT406070 #contains nrITS + nrLSU 
+MT406072 #contains nrITS + nrLSU
+# A. subvelatipes n.p. s. RET - no seqs available 
+# A. velatipes 
+MH486938.1 # partial seq, perhaps? double check later
+# A. tlaxcalipanthera
+MT421966
+# A. wellsii
+HQ539758
+OK285331
+OK285332	
+OK299169
+# A. austrowellsii - no seq -- LSU + ITS combined in seqs in ITS_GenBank file (should be in dir with this file)
+# A. parcivolvata 
+MN963584

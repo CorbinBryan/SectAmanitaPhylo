@@ -1,3 +1,4 @@
+#!/bin/bash
 # GenBank accession nos. for ITS seqs
 # Amanita frostiana
 AF024453.1
@@ -118,7 +119,7 @@ EU071937
 KP866167
 KP866193
 MK461189
-# Amanita gioiosa
+# A. gioiosa
 MH603599.1
 # A. breckonii
 KJ535439
