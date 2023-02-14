@@ -1,5 +1,5 @@
 #!/bin/bash
-#extract four loci 
+#extract four loci from given genomes
 
 mkdir ./Genome_fastas 
 while read FILE; do
