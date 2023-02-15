@@ -1,20 +1,10 @@
 #!/bin/bash
 #extract four loci from given genomes
 
-if [ ! -d ./Genome_fastas ]; then
-    mkdir ./Genome_fastas
+
+if [ ! -f blast_names.txt ]; then 
+    ls ./assemblies/*.fasta > blast_names.txt
 fi
-
-if [! -f Rows_names.txt]; then
-    for FILE in $(cat blast_names.txt); do
-        wc -l ./blastOut/${FILE}_hits.txt
-    done > Rows_names.txt
-fi 
-
-
-# note, I had this done as a while-read, gives segmentation error
-#ls ./assemblies/*.fasta > blast_names.txt
-
 
 while read FILE; do
     while read LINE; do
