@@ -2,21 +2,42 @@
 #extract four loci from given genomes
 
 if [ ! -d ./Genome_fastas ]; then
-mkdir ./Genome_fastas
+    mkdir ./Genome_fastas
 fi
 
-for FILE in $(cat blast_names.txt); do
-    for i in $(seq $(cat ./blastOut/${FILE}_hits.txt | wc -l)); do
-        ENTR=$(awk -v awkvar="$i" 'FNR == i {print $2}' ./blastOut/${FILE}_hits.txt)
-        START=$(awk -v awkvar="$i" 'FNR == i {print $9}' ./blastOut/${FILE}_hits.txt)
-        STOP=$(awk -v awkvar="$i" 'FNR == i {print $10}' ./blastOut/${FILE}_hits.txt)
-        RANGE=$(awk -v awkvar="$i" 'FNR == i {print $9"-"$10}')
-        echo $RANGE
+if [! -f Rows_names.txt]; then
+    for FILE in $(cat blast_names.txt); do
+        wc -l ./blastOut/${FILE}_hits.txt
+    done > Rows_names.txt
+fi 
+
+
+# note, I had this done as a while-read, gives segmentation error
+#ls ./assemblies/*.fasta > blast_names.txt
+
+
+while read FILE; do
+    while read LINE; do
+        ENTR=$(echo "$LINE" | awk '{print $2}')
+        START=$(echo "$LINE" | awk '{print $9}')
+        STOP=$(echo "$LINE" | awk '{print $10}')
+        RANGE=$(echo "$LINE" | awk '{print $9"-"$10}')
+        QUER=$(echo "$LINE" | awk '{print $1}')
         if [[ $STOP -gt $START ]]; then
             STR="plus"
+            RANGE=$(echo "$LINE" | awk '{print $9"-"$10}')
         else
             STR="minus"
+            RANGE=$(echo "$LINE" | awk '{print $10"-"$9}')
+        fi
+        if [[ $QUER = ITS_EU071918 ]]; then
+            blastdbcmd -db ./assemblies/"$FILE" -dbtype nucl -entry "$ENTR" -range "$RANGE" -strand "$STR" >> ITS_gen.fa 
+        elif [[ $QUER = LSU_EU071971 ]]; then
+            blastdbcmd -db ./assemblies/"$FILE" -dbtype nucl -entry "$ENTR" -range "$RANGE" -strand "$STR" >> LSU_gen.fa 
+        elif [[ $QUER = EF1_EU071866.1 ]]; then
+            blastdbcmd -db ./assemblies/"$FILE" -dbtype nucl -entry "$ENTR" -range "$RANGE" -strand "$STR" >> EF1_gen.fa 
+        elif [[ $QUER = BTUB_EU071837 ]]; then
+            blastdbcmd -db ./assemblies/"$FILE" -dbtype nucl -entry "$ENTR" -range "$RANGE" -strand "$STR" >> BTUB_gen.fa 
         fi 
-        blastdbcmd -db ./assemblies/${FILE} -dbtype nucl -entry "$ENTR" -range "$RANGE" -strand "$STR" -out ./Genome_fastas/${FILE}_out.fa 
-    done 
-done
+    done < ./blastOut/${FILE}_hits.txt
+done < blast_names.txt
