@@ -1,7 +1,21 @@
 #!/bin/bash
-# script to align loci; first two inputs should be absolute file paths to fasta files, third should be
-#   the locus of interest
-cat "$1" "$2" > ${3}_cat.fasta
+# script to align fasta files containing sequences for a given locus, which is the only argument 
+if [ ! -d ./concat_fas ]; then 
+    mkdir ./concat_fas
+else
+    rm -r ./concat_fas
+    mkdir ./concat_fas
+fi 
+
+if [ ! -d ./alignments ]; then 
+    mkdir ./alignments
+else 
+    rm -r ./alignments
+    mkdir ./alignments
+fi
+
+cat ./SectAmanitaData/GBFastas/${1}_GenBank.fa\
+ ./SectAmanitaData/Genome_fastas/${1}_gen.fa > ./concat_fas/${1}_cat.fasta
 # mafft perameters: linsi specifies the FFT-Ni algorithm, which performs the FFT and
 #   reconducts the alignment until no higher score is reached. 
 # maxiterate set to max to ensure quality alignment. 
@@ -9,9 +23,9 @@ cat "$1" "$2" > ${3}_cat.fasta
 # no reason to raise gap opening penalty
 # default scoring matrix should be fine (first iteration is like clustalW, requires scoring matrix)
 # NOTE: less than 200 seqs, seqs less than 20,000 => settings are appropriate. 
-mafft-linsi --maxiterate 1000 ${3}_cat.fasta > ${3}_al_mafft.fasta
+mafft-linsi --adjustdirectionaccurately --maxiterate 1000 ./concat_fas/${1}_cat.fasta > ./alignments/${1}_al_mafft.fasta
 
 # default parameters should suffice; no reason to attempt ensemble alignments. If alignment appears off, I will
 #   conder re-running muscle with ensemble settings and examining the dispersion between them; could prevent bad alignments, 
 #   and muscle has settings for this. 
-muscle -align ${3}_cat.fasta -output ${3}_al_musc.fasta
+muscle -align ./concat_fas/${1}_cat.fasta -output ./alignments/${1}_al_musc.fasta
