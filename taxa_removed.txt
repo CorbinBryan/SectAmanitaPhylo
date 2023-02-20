@@ -1,0 +1,4 @@
+# names of taxa to be removed from the ITS data set post alignment but prior to realignment. 
+MT406067.1
+HQ539696.1
+HQ539800.1
