@@ -1,5 +1,6 @@
 #!/bin/bash
 # script to align fasta files containing sequences for a given locus, which is the only argument 
+# input can be one of the following strings, given my naming conventions: ITS, LSU, BTUB or EF1-A 
 if [ ! -d ./concat_fas ]; then 
     mkdir ./concat_fas
 else
