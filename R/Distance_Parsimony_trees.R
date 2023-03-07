@@ -2,6 +2,12 @@
 # Corbin Bryan, Feb. 28, 2023
 # Input files shoudl be aligned .fastas 
 
+# Note input alignment fastas must be manually currated for these distance based approaches 
+# as the distance based methods fail for highly divergent seqs (esp. ITS, here). 
+# Alignments were edited such that sequences which had large indels where most other sequences 
+# did not were removed, and the alignments were re-aligned using muscle with default parameters, 
+# and renamed as Test_[Original File Name]
+
 ##### Load pkgs and aligned .fa's #####
 library(ape)
 library(adegenet)
