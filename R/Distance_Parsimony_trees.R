@@ -8,6 +8,16 @@
 # did not were removed, and the alignments were re-aligned using muscle with default parameters, 
 # and renamed as Test_[Original File Name]
 
+
+# TN93 is a three parameter model with parameters for transversions and both possible types of transitions. Moreover, 
+# the rate matrix also uses nucleotide frequencies as free parameters. I chose this model in particular because it 
+# it allows for a decent number of parameters, which is expected to improve it's accuracy over other models (such as the K80 model) which use
+# less variables. Although over-fitting input data is a very real possibility for models with many parameters, but given the number of sequences in 
+# each alignment issue, I think the probability of this occuring should be negligable. The primary drawback of this approach is that this model 
+# (as well as other models) will not work for all data, as is evidenced by my difficulties in constructing an ITS phylogeny here. Additionally, 
+# three parameter models are more computationally intensive than models with less parameters (eg., K80), which is another potential limitation. 
+
+
 ##### Load pkgs and aligned .fa's #####
 library(ape)
 library(adegenet)
