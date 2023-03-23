@@ -14,7 +14,6 @@ raxml-ng --msa "$MSA".fasta \
 # STEP 2: 
 raxml-ng --msa "$MSA".fasta \ 
 --model GTR+G \ 
---search \ 
---all \ 
---bs-metric fbp,tbe \ 
---prefix "$MSA"
+--prefix "$MSA" --threads 2 --seed 2 #\   #commented out because not really required
+#--all \ 
+#--bs-metric fbp,tbe
