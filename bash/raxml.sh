@@ -6,6 +6,8 @@
 # Corbin T. Bryan, March 23, 2023
 MSA="$1"
 
+# Note IQTree model selector suggests: K3Pu+F+R3 
+
 # STEP 1: Check if data is appropriate for RAxML-NG
 raxml-ng --msa "$MSA".fasta \
 --model GTR+G \
