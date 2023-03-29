@@ -10,6 +10,9 @@ MSA="$1"
 #   compare the outputs from the two models. Moreover, I've chosen the --bs-metric flag, which will be left at it's default value, 
 #   which is fbp, Felsenstein bootstrap. 
 
+# I've had good luck with default IQtree params on past runs with similar data. For the time being, I'll stick with these, unless 
+#   the output is particularly bad. 
+
 # STEP 1: Check if data is appropriate for RAxML-NG
 raxml-ng --msa "$MSA".fasta \
 --model GTR+G \
