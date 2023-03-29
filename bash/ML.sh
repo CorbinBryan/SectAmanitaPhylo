@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# A script to run raxml on a given data set
+# A script to run raxml-ng and iqtree2 on a given data set
 # Corbin T. Bryan, March 23, 2023
 
 MSA="$1"
