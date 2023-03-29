@@ -6,7 +6,9 @@
 MSA="$1"
 
 # Note IQTree model selector suggests: K3Pu+F+R3; nevertheless, I've chosen the general time reversible model for the RAxML run
-#   with different rates (i.e., +G = Gama Distribution for independent rate estimates throughout diff. lineages)
+#   with different rates (i.e., +G = Gama Distribution for independent rate estimates throughout diff. lineages), mostly for to 
+#   compare the outputs from the two models. Moreover, I've chosen the --bs-metric flag, which will be left at it's default value, 
+#   which is fbp, Felsenstein bootstrap. 
 
 # STEP 1: Check if data is appropriate for RAxML-NG
 raxml-ng --msa "$MSA".fasta \
@@ -16,7 +18,10 @@ raxml-ng --msa "$MSA".fasta \
 # STEP 2: Infer ML Phylo Using RAxML-NG 
 raxml-ng --all --msa "$MSA".fasta \ 
 --model GTR+G \ 
---prefix "$MSA" --threads 2 --seed 2
+--prefix "$MSA" \
+--threads 2 \
+--seed 2 \
+--bs-metric fbp
 
 # STEP 3: Wrangle all outputs into single directory
 mkdir RAxML_out_"$MSA"
@@ -28,6 +33,7 @@ tar -zcvf RAxML_out.tar.gz RAxML_out
 
 mv RAxML_out.tar.gz /staging/bryan7 
 
+# Now, run IQtree2
 # STEP 4: Infer ML Phylo using IQTree2 
 iqtree -s "$MSA".fasta 
 
