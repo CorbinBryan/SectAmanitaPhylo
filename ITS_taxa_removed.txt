@@ -1,4 +1,4 @@
-# names of taxa to be removed from the ITS data set post alignment but prior to realignment. 
+# names of taxa to be removed from the ITS data set post alignment but prior to realignment 
 MG966273.1_Chalciporus_rubinellus
 NODE_1431_length_3573_cov_194.603261__
 _R_NODE_1431_length_3573_cov_194.603261__
