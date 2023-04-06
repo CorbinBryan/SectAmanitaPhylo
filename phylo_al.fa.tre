@@ -1,0 +1,507 @@
+IQ-TREE 2.2.0.3 COVID-edition built Sep  5 2022
+
+Input file name: phylo_al.fa
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 502153
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 202 sequences with 2591 nucleotide sites
+Number of constant sites: 1685 (= 65.0328% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1685 (= 65.0328% of all sites)
+Number of parsimony informative sites: 586
+Number of distinct site patterns: 1037
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TN+F+R2
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TN+F+R2          -10630.916   21957.831 +    0.187   22066.174 +    0.273   23997.041 +     0.75
+HKY+F+R2         -10636.627   21967.254 -  0.00168   22074.928 -  0.00343   24000.605 +    0.126
+TIM3+F+R2        -10629.937   21957.873 +    0.183   22066.887 +    0.191   24002.943 -   0.0392
+TIM2+F+R2        -10630.219   21958.438 +    0.138   22067.452 +    0.144   24003.508 -   0.0296
+TN+F+I+I+R2      -10630.605   21959.210 +   0.0937   22068.224 +   0.0981   24004.280 -   0.0201
+TIM+F+R2         -10630.908   21959.816 +   0.0692   22068.830 +   0.0725   24004.886 -   0.0148
+TPM3u+F+R2       -10635.650   21967.301 -  0.00164   22075.643 -   0.0024   24006.511 -  0.00659
+TPM2u+F+R2       -10635.947   21967.895 -  0.00122   22076.237 -  0.00178   24007.105 -  0.00489
+HKY+F+I+I+R2     -10636.307   21968.615 -  0.00085   22076.957 -  0.00125   24007.825 -  0.00341
+K3Pu+F+R2        -10636.630   21969.260 - 0.000616   22077.602 - 0.000902   24008.470 -  0.00247
+TIM3+F+I+I+R2    -10629.404   21958.808 +    0.115   22068.495 +   0.0856   24009.738 -  0.00131
+TIM2+F+I+I+R2    -10629.956   21959.913 +   0.0659   22069.600 -   0.0493   24010.843 - 0.000755
+TIM+F+I+I+R2     -10630.590   21961.179 -    0.035   22070.867 -   0.0262   24012.109 - 0.000401
+TPM3u+F+I+I+R2   -10635.079   21968.159 -  0.00107   22077.173 -  0.00112   24013.229 - 0.000229
+TPM2u+F+I+I+R2   -10635.634   21969.267 - 0.000613   22078.281 - 0.000642   24014.337 - 0.000132
+K3Pu+F+I+I+R2    -10636.288   21970.577 - 0.000319   22079.591 - 0.000334   24015.647 - 6.84e-05
+GTR+F+R2         -10629.124   21960.249 +   0.0557   22070.612 -   0.0297   24017.038 - 3.41e-05
+TVM+F+R2         -10634.771   21969.541 - 0.000535   22079.229 -   0.0004   24020.471 - 6.13e-06
+GTR+F+I+I+R2     -10628.553   21961.107 -   0.0363   22072.149 -   0.0138   24023.756 - 1.19e-06
+TVM+F+I+I+R2     -10634.200   21970.400 - 0.000348   22080.764 - 0.000186   24027.190 - 2.13e-07
+GTR+F+R3         -10629.030   21964.059 -  0.00829   22075.782 -  0.00224   24032.569 - 1.45e-08
+GTR+F+I+I+R3     -10628.472   21964.944 -  0.00533   22077.350 -  0.00102   24039.313 - 4.96e-10
+TPM3+R2          -10670.433   22030.867 - 2.58e-17   22137.210 - 1.03e-16   24052.497 -  6.8e-13
+TIM3e+R2         -10667.076   22026.152 - 2.73e-16   22133.159 - 7.78e-16   24053.642 - 3.84e-13
+TPM3+I+I+R2      -10668.817   22029.634 - 4.78e-17   22136.641 - 1.36e-16   24057.125 - 6.73e-14
+TIM3e+I+I+R2     -10665.184   22024.369 - 6.65e-16   22132.042 - 1.36e-15   24057.719 -    5e-14
+K2P+R2           -10677.732   22043.465 - 4.74e-20   22149.146 - 2.63e-19   24059.236 - 2.34e-14
+TNe+R2           -10674.151   22038.302 - 6.27e-19   22144.645 -  2.5e-18   24059.932 - 1.65e-14
+GTR+F+G4         -10654.679   22009.357 - 1.21e-12   22119.045 - 9.04e-13   24060.287 - 1.38e-14
+TPM2+R2          -10676.632   22043.264 - 5.24e-20   22149.607 - 2.09e-19   24064.895 - 1.38e-15
+K2P+I+I+R2       -10676.765   22043.529 - 4.59e-20   22149.872 - 1.83e-19   24065.160 - 1.21e-15
+TVMe+R2          -10669.101   22032.202 - 1.32e-17   22139.875 - 2.71e-17   24065.552 - 9.95e-16
+TIM2e+R2         -10673.073   22038.146 - 6.77e-19   22145.153 - 1.94e-18   24065.636 - 9.54e-16
+TNe+I+I+R2       -10673.087   22038.175 - 6.68e-19   22145.182 - 1.91e-18   24065.665 - 9.41e-16
+SYM+R2           -10665.830   22027.660 - 1.28e-16   22136.003 - 1.88e-16   24066.870 - 5.15e-16
+K3P+R2           -10677.759   22045.519 -  1.7e-20   22151.862 - 6.76e-20   24067.150 - 4.48e-16
+TIMe+R2          -10674.174   22040.348 - 2.25e-19   22147.355 - 6.43e-19   24067.839 - 3.17e-16
+TVMe+I+I+R2      -10667.540   22031.080 - 2.32e-17   22139.422 -  3.4e-17   24070.290 - 9.31e-17
+SYM+I+I+R2       -10663.936   22025.872 - 3.13e-16   22134.886 - 3.28e-16   24070.942 - 6.72e-17
+TPM2+I+I+R2      -10675.743   22043.487 - 4.69e-20   22150.494 - 1.34e-19   24070.977 - 6.61e-17
+GTR+F+I+G4       -10656.173   22014.347 - 9.97e-14   22124.710 - 5.32e-14   24071.136 -  6.1e-17
+TIM2e+I+I+R2     -10672.019   22038.038 - 7.15e-19   22145.712 - 1.46e-18   24071.389 - 5.38e-17
+K3P+I+I+R2       -10676.835   22045.669 - 1.57e-20   22152.676 -  4.5e-20   24073.160 - 2.22e-17
+TIMe+I+I+R2      -10673.089   22040.177 - 2.45e-19   22147.851 - 5.02e-19   24073.528 - 1.85e-17
+GTR+F+I          -10676.763   22053.527 -  3.1e-22   22163.214 - 2.32e-22   24104.456 - 3.55e-24
+GTR+F            -10682.268   22062.537 - 3.42e-24   22171.551 - 3.59e-24   24107.607 - 7.34e-25
+F81+F+R2         -10787.115   22266.229 - 2.01e-68   22373.237 - 5.74e-68   24293.720 - 2.83e-65
+F81+F+I+I+R2     -10786.997   22267.995 - 8.31e-69   22375.669 -  1.7e-68   24301.345 - 6.25e-67
+JC+R2            -10818.409   22322.818 - 1.04e-80   22427.840 - 7.98e-80   24332.730 - 9.57e-74
+JC+I+I+R2        -10818.008   22324.017 - 5.69e-81   22429.698 - 3.15e-80   24339.788 - 2.81e-75
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TN+F+R2
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 2.6139
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 3.5711
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2539
+  pi(C) = 0.2055
+  pi(G) = 0.2435
+  pi(T) = 0.2971
+
+Rate matrix Q:
+
+  A   -0.9046    0.1632    0.5055     0.236
+  C    0.2016    -1.238    0.1934    0.8426
+  G     0.527    0.1632   -0.9262     0.236
+  T    0.2016    0.5827    0.1934   -0.9777
+
+Model of rate heterogeneity: FreeRate with 2 categories
+Site proportion and rates:  (0.8568,0.5606) (0.1432,3.629)
+
+ Category  Relative_rate  Proportion
+  1         0.5606         0.8568
+  2         3.629          0.1432
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -10614.4261 (s.e. 238.2511)
+Unconstrained log-likelihood (without tree): -14409.7548
+Number of free parameters (#branches + #model parameters): 348
+Akaike information criterion (AIC) score: 21924.8523
+Corrected Akaike information criterion (AICc) score: 22033.1948
+Bayesian information criterion (BIC) score: 23964.0624
+
+Total tree length (sum of branch lengths): 6.5185
+Sum of internal branch lengths: 2.4786 (38.0241% of tree length)
+
+WARNING: 101 near-zero internal branches (<0.0004) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'OQ252774.1_Amanita_muscaria_var._guessowii' is drawn at root
+
++**OQ252774.1_Amanita_muscaria_var._guessowii
+|
+|                                +--OQ172990.1_Amanita_muscaria_var._guessowii
+|                             +**|
+|                             |  |  +--OK346418.1_Amanita_muscaria_var._alba
+|                             |  +**|
+|                             |     +**NODE_7449_length_687_cov_6477.311475__
+|                          +**|
+|                          |  +**EU071896.1_Amanita_muscaria
+|                       +**|
+|                       |  +**EU071893.1_Amanita_muscaria
+|                    +**|
+|                    |  |           +--OM952182.1_Amanita_muscaria_subsp._flavivolvata
+|                    |  |        +**|
+|                    |  |        |  +**_R_NODE_1284_length_6169_cov_137.733093__
+|                    |  |     +**|
+|                    |  |     |  +**KJ638272.1_Amanita_muscaria_var._guessowii
+|                    |  |  +**|
+|                    |  |  |  +**JX030204.1_Amanita_muscaria_var._formosa
+|                    |  +**|
+|                    |     +--NODE_6264_length_505_cov_2504.654206__
+|                 +**|
+|                 |  +--AB080788.1_Amanita_muscaria_var._formosa
+|              +**|
+|              |  |     +**MZ668144.1_Amanita_muscaria_var._guessowii
+|              |  |  +--|
+|              |  |  |  |  +**EU071919.1_Amanita_muscaria
+|              |  |  |  +**|
+|              |  |  |     +**AB080792.1_Amanita_muscaria_var._formosa
+|              |  +**|
+|              |     +**NODE_1284_length_6169_cov_137.733093__
+|           +**|
+|           |  +--AB080794.1_Amanita_muscaria_var._formosa
+|        +**|
+|        |  +**EU071911.1_Amanita_muscaria
+|     +--|
+|     |  |                                      +**OP749823.1_Amanita_frostiana
+|     |  |                                   +**|
+|     |  |                                   |  +**KP313580.1_Amanita_frostiana
+|     |  |                                +**|
+|     |  |                                |  +--KJ638273.1_Amanita_frostiana
+|     |  |                             +**|
+|     |  |                             |  +**KP313579.1_Amanita_frostiana
+|     |  |                          +**|
+|     |  |                          |  |     +**KP313583.1_Amanita_frostiana
+|     |  |                          |  |  +**|
+|     |  |                          |  |  |  +**KP313582.1_Amanita_frostiana
+|     |  |                          |  +**|
+|     |  |                          |     +**KP313581.1_Amanita_frostiana
+|     |  |                       +--|
+|     |  |                       |  +**OL741520.1_Amanita_frostiana
+|     |  |                    +--|
+|     |  |                    |  |     +**MH211685.1_Amanita_frostiana
+|     |  |                    |  |  +**|
+|     |  |                    |  |  |  +--KX358018.1_Amanita_frostiana
+|     |  |                    |  +--|
+|     |  |                    |     +--MH603599.1_Amanita_gioiosa
+|     |  |                 +--|
+|     |  |                 |  |                                               +**OP749480.1_Amanita_parcivolvata
+|     |  |                 |  |                                            +**|
+|     |  |                 |  |                                            |  +**OP749372.1_Amanita_parcivolvata
+|     |  |                 |  |                                         +**|
+|     |  |                 |  |                                         |  +--MK580721.1_Amanita_parcivolvata
+|     |  |                 |  |                                      +--|
+|     |  |                 |  |                                      |  +--MZ668292.1_Amanita_parcivolvata
+|     |  |                 |  |                                   +**|
+|     |  |                 |  |                                   |  +**MK580681.1_Amanita_parcivolvata
+|     |  |                 |  |                                +**|
+|     |  |                 |  |                                |  +**MZ667934.1_Amanita_parcivolvata
+|     |  |                 |  |                             +**|
+|     |  |                 |  |                             |  +**MZ667943.1_Amanita_parcivolvata
+|     |  |                 |  |                          +**|
+|     |  |                 |  |                          |  +**KP313586.1_Amanita_parcivolvata
+|     |  |                 |  |                       +**|
+|     |  |                 |  |                       |  +**MZ668203.1_Amanita_parcivolvata
+|     |  |                 |  |                    +**|
+|     |  |                 |  |                    |  +**KP313585.1_Amanita_parcivolvata
+|     |  |                 |  |                 +**|
+|     |  |                 |  |                 |  +**OP749133.1_Amanita_parcivolvata
+|     |  |                 |  |              +**|
+|     |  |                 |  |              |  +**OP749468.1_Amanita_parcivolvata
+|     |  |                 |  |           +--|
+|     |  |                 |  |           |  +**MN963585.1_Amanita_parcivolvata
+|     |  |                 |  |        +--|
+|     |  |                 |  |        |  |  +**OM473843.1_Amanita_parcivolvata
+|     |  |                 |  |        |  +**|
+|     |  |                 |  |        |     |     +**MZ668075.1_Amanita_parcivolvata
+|     |  |                 |  |        |     |  +--|
+|     |  |                 |  |        |     |  |  +**MZ667964.1_Amanita_parcivolvata
+|     |  |                 |  |        |     +**|
+|     |  |                 |  |        |        +**KP313584.1_Amanita_parcivolvata
+|     |  |                 |  |     +--|
+|     |  |                 |  |     |  |     +**OK299151.1_Amanita_wellsii
+|     |  |                 |  |     |  |  +**|
+|     |  |                 |  |     |  |  |  |     +**KU248116.1_Amanita_wellsii
+|     |  |                 |  |     |  |  |  |  +--|
+|     |  |                 |  |     |  |  |  |  |  +**KU248115.1_Amanita_wellsii
+|     |  |                 |  |     |  |  |  +**|
+|     |  |                 |  |     |  |  |     +**KP313594.1_Amanita_wellsii
+|     |  |                 |  |     |  +--|
+|     |  |                 |  |     |     |  +**NODE_5742_length_520_cov_1.568849__
+|     |  |                 |  |     |     +--|
+|     |  |                 |  |     |        +**_R_NODE_5742_length_520_cov_1.568849__
+|     |  |                 |  |  +--|
+|     |  |                 |  |  |  |                                                             +**HQ539696.1_Amanita_frostiana
+|     |  |                 |  |  |  |                                                          +--|
+|     |  |                 |  |  |  |                                                          |  +**AF024453.1_Amanita_frostiana
+|     |  |                 |  |  |  |                                                       +--|
+|     |  |                 |  |  |  |                                                       |  +--HQ593120.1_Amanita_muscaria_var._guessowii
+|     |  |                 |  |  |  |                                                    +--|
+|     |  |                 |  |  |  |                                                    |  +--EU071984.1_Amanita_muscaria
+|     |  |                 |  |  |  |                                                 +--|
+|     |  |                 |  |  |  |                                                 |  |     +**NG_056956.1_Amanita_persicina
+|     |  |                 |  |  |  |                                                 |  |  +--|
+|     |  |                 |  |  |  |                                                 |  |  |  +**EU071995.1_Amanita_persicina
+|     |  |                 |  |  |  |                                                 |  +--|
+|     |  |                 |  |  |  |                                                 |     +**AF097367.1_Amanita_muscaria
+|     |  |                 |  |  |  |     +-------------------------------------------|
+|     |  |                 |  |  |  |     |                                           |  +**MH486797.1_Amanita_regalis
+|     |  |                 |  |  |  |     |                                           +**|
+|     |  |                 |  |  |  |     |                                              |     +**DQ060889.1_Amanita_regalis
+|     |  |                 |  |  |  |     |                                              |  +**|
+|     |  |                 |  |  |  |     |                                              |  |  |  +**DQ060885.1_Amanita_regalis
+|     |  |                 |  |  |  |     |                                              |  |  +**|
+|     |  |                 |  |  |  |     |                                              |  |     +**DQ060884.1_Amanita_regalis
+|     |  |                 |  |  |  |     |                                              +**|
+|     |  |                 |  |  |  |     |                                                 +**EU071980.1_Amanita_regalis
+|     |  |                 |  |  |  |  +--|
+|     |  |                 |  |  |  |  |  |  +--------------MG966273.1_Chalciporus_rubinellus
+|     |  |                 |  |  |  |  |  +--|
+|     |  |                 |  |  |  |  |     |                +**FJ235155.1_Amanita_rubescens
+|     |  |                 |  |  |  |  |     |             +--|
+|     |  |                 |  |  |  |  |     |             |  |         +**NODE_1431_length_3573_cov_194.603261__
+|     |  |                 |  |  |  |  |     |             |  |      +--|
+|     |  |                 |  |  |  |  |     |             |  |      |  +**_R_NODE_1431_length_3573_cov_194.603261__
+|     |  |                 |  |  |  |  |     |             |  |   +--|
+|     |  |                 |  |  |  |  |     |             |  |   |  |  +**NODE_1650_length_3451_cov_175.794309__
+|     |  |                 |  |  |  |  |     |             |  |   |  +**|
+|     |  |                 |  |  |  |  |     |             |  |   |     +**_R_NODE_1650_length_3451_cov_175.794309__
+|     |  |                 |  |  |  |  |     |             |  +---|
+|     |  |                 |  |  |  |  |     |             |      +--NODE_789_length_8011_cov_59.802370__
+|     |  |                 |  |  |  |  |     |          +--|
+|     |  |                 |  |  |  |  |     |          |  |  +--AB015682.1_Amanita_rubescens
+|     |  |                 |  |  |  |  |     |          |  +--|
+|     |  |                 |  |  |  |  |     |          |     +--AM084702.1_Amanita_rubescens
+|     |  |                 |  |  |  |  |     |       +**|
+|     |  |                 |  |  |  |  |     |       |  +**AF438593.2_Amanita_rubescens
+|     |  |                 |  |  |  |  |     |    +--|
+|     |  |                 |  |  |  |  |     |    |  +**AJ889922.1_Amanita_rubescens
+|     |  |                 |  |  |  |  |     +----|
+|     |  |                 |  |  |  |  |          +--AF085484.1_Amanita_rubescens
+|     |  |                 |  |  |  +--|
+|     |  |                 |  |  |     |          +-------------------------------------HQ539800.1_Amanita_frostiana
+|     |  |                 |  |  |     +----------|
+|     |  |                 |  |  |                |    +---------------------------------------_R_AF159064.1_Amanita_muscaria_var._persicina
+|     |  |                 |  |  |                +----|
+|     |  |                 |  |  |                     +-----------------------------------_R_X15411.1_Pig_part
+|     |  |                 |  +--|
+|     |  |                 |     |     +--OP503821.1_Amanita_velatipes
+|     |  |                 |     |  +--|
+|     |  |                 |     |  |  |     +--MW582877.1_Amanita_velatipes
+|     |  |                 |     |  |  |  +--|
+|     |  |                 |     |  |  |  |  |     +**MK580778.1_Amanita_velatipes
+|     |  |                 |     |  |  |  |  |  +**|
+|     |  |                 |     |  |  |  |  |  |  +**MK564535.1_Amanita_velatipes
+|     |  |                 |     |  |  |  |  +--|
+|     |  |                 |     |  |  |  |     |  +**MH508643.1_Amanita_velatipes
+|     |  |                 |     |  |  |  |     +**|
+|     |  |                 |     |  |  |  |        +**MH508642.1_Amanita_velatipes
+|     |  |                 |     |  |  +--|
+|     |  |                 |     |  |     +--NODE_572_length_10296_cov_1580.480478__
+|     |  |                 |     +--|
+|     |  |                 |        |                 +**OP470111.1_Amanita_breckonii
+|     |  |                 |        |              +--|
+|     |  |                 |        |              |  +**MK580753.1_Amanita_breckonii
+|     |  |                 |        |           +**|
+|     |  |                 |        |           |  +**KR919758.1_Amanita_breckonii
+|     |  |                 |        |        +**|
+|     |  |                 |        |        |  +**KR919756.1_Amanita_breckonii
+|     |  |                 |        |     +--|
+|     |  |                 |        |     |  +**KR919757.1_Amanita_breckonii
+|     |  |                 |        |  +--|
+|     |  |                 |        |  |  +**KJ535439.1_Amanita_breckonii
+|     |  |                 |        +--|
+|     |  |                 |           +--MK627470.1_Amanita_breckonii
+|     |  |              +--|
+|     |  |              |  |  +--OP503832.1_Amanita_velatipes
+|     |  |              |  +--|
+|     |  |              |     |        +**OP480716.1_Amanita_persicina
+|     |  |              |     |     +**|
+|     |  |              |     |     |  |           +--ON412925.1_Amanita_persicina
+|     |  |              |     |     |  |        +--|
+|     |  |              |     |     |  |        |  +**EU071886.1_Amanita_persicina
+|     |  |              |     |     |  |     +**|
+|     |  |              |     |     |  |     |  +**NR_154668.1_Amanita_persicina
+|     |  |              |     |     |  |  +**|
+|     |  |              |     |     |  |  |  +**EU071926.1_Amanita_persicina
+|     |  |              |     |     |  +**|
+|     |  |              |     |     |     +**MK571179.1_Amanita_persicina
+|     |  |              |     |  +**|
+|     |  |              |     |  |  |  +**ON383440.1_Amanita_persicina
+|     |  |              |     |  |  +**|
+|     |  |              |     |  |     +--ON080962.1_Amanita_persicina
+|     |  |              |     +--|
+|     |  |              |        +**MK580713.1_Amanita_persicina
+|     |  |           +--|
+|     |  |           |  |     +**MK580664.1_Amanita_muscaria_var._formosa
+|     |  |           |  |  +--|
+|     |  |           |  |  |  +**MK580662.1_Amanita_muscaria_var._formosa
+|     |  |           |  +--|
+|     |  |           |     |                                                     +**MK461189.1_Amanita_muscaria
+|     |  |           |     |                                                  +**|
+|     |  |           |     |                                                  |  |  +**EU071895.1_Amanita_muscaria
+|     |  |           |     |                                                  |  +--|
+|     |  |           |     |                                                  |     +**EU071894.1_Amanita_muscaria
+|     |  |           |     |                                               +**|
+|     |  |           |     |                                               |  +**EU071914.1_Amanita_muscaria
+|     |  |           |     |                                            +**|
+|     |  |           |     |                                            |  +--EU071909.1_Amanita_muscaria
+|     |  |           |     |                                         +**|
+|     |  |           |     |                                         |  +**NODE_4835_length_1053_cov_1781.494877__
+|     |  |           |     |                                      +**|
+|     |  |           |     |                                      |  |  +--EU071937.1_Amanita_muscaria
+|     |  |           |     |                                      |  +--|
+|     |  |           |     |                                      |     +**EU071915.1_Amanita_muscaria
+|     |  |           |     |                                   +**|
+|     |  |           |     |                                   |  +**NODE_1369_length_5133_cov_2163.075158__
+|     |  |           |     |                                +**|
+|     |  |           |     |                                |  +**EU071912.1_Amanita_muscaria
+|     |  |           |     |                             +**|
+|     |  |           |     |                             |  +**EU071918.1_Amanita_muscaria
+|     |  |           |     |                          +**|
+|     |  |           |     |                          |  +**_R_NODE_8620_length_519_cov_1201.608597__
+|     |  |           |     |                       +**|
+|     |  |           |     |                       |  +--NODE_1217_length_5737_cov_2031.369965__
+|     |  |           |     |                    +**|
+|     |  |           |     |                    |  +**NODE_5540_length_785_cov_2526.313559__
+|     |  |           |     |                 +**|
+|     |  |           |     |                 |  +**NODE_8620_length_519_cov_1201.608597__
+|     |  |           |     |              +**|
+|     |  |           |     |              |  +**NODE_4234_length_1123_cov_2346.187380__
+|     |  |           |     |           +**|
+|     |  |           |     |           |  |  +**NODE_3793_length_1263_cov_902.958685__
+|     |  |           |     |           |  +--|
+|     |  |           |     |           |     +**_R_NODE_3793_length_1263_cov_902.958685__
+|     |  |           |     |        +**|
+|     |  |           |     |        |  |  +**KP866167.1_Amanita_muscaria
+|     |  |           |     |        |  +--|
+|     |  |           |     |        |     |           +--EU071920.1_Amanita_muscaria
+|     |  |           |     |        |     |        +--|
+|     |  |           |     |        |     |        |  +**_R_NODE_4794_length_1017_cov_977.284043__
+|     |  |           |     |        |     |     +**|
+|     |  |           |     |        |     |     |  +**NODE_2636_length_1570_cov_492.735432__
+|     |  |           |     |        |     |  +**|
+|     |  |           |     |        |     |  |  +**EU071897.1_Amanita_muscaria
+|     |  |           |     |        |     +--|
+|     |  |           |     |        |        +**NODE_1199_length_4691_cov_928.934764__
+|     |  |           |     |     +**|
+|     |  |           |     |     |  +**NODE_3194_length_1473_cov_818.204155__
+|     |  |           |     |  +--|
+|     |  |           |     |  |  +**NODE_4794_length_1017_cov_977.284043__
+|     |  |           |     +--|
+|     |  |           |        +--KP866193.1_Amanita_muscaria
+|     |  |        +--|
+|     |  |        |  |                          +--MW553145.1_Amanita_regalis
+|     |  |        |  |                       +**|
+|     |  |        |  |                       |  +--AB080781.1_Amanita_muscaria_var._regalis
+|     |  |        |  |                    +**|
+|     |  |        |  |                    |  |  +**AB080782.1_Amanita_muscaria_var._regalis
+|     |  |        |  |                    |  +--|
+|     |  |        |  |                    |     +**AB080780.1_Amanita_muscaria_var._regalis
+|     |  |        |  |                 +**|
+|     |  |        |  |                 |  +**DQ060909.1_Amanita_regalis
+|     |  |        |  |              +**|
+|     |  |        |  |              |  +**DQ060905.1_Amanita_regalis
+|     |  |        |  |           +**|
+|     |  |        |  |           |  +**EU071907.1_Amanita_regalis
+|     |  |        |  |        +**|
+|     |  |        |  |        |  +**JF907764.1_Amanita_regalis
+|     |  |        |  |     +**|
+|     |  |        |  |     |  +**EF493268.1_Amanita_muscaria_var._regalis
+|     |  |        |  |  +**|
+|     |  |        |  |  |  +**MH508537.1_Amanita_regalis
+|     |  |        |  +--|
+|     |  |        |     +**LT594941.1_Amanita_regalis
+|     |  |     +**|
+|     |  |     |  |     +**MK290420.1_Amanita_muscaria_subsp._flavivolvata
+|     |  |     |  |  +**|
+|     |  |     |  |  |  |  +**MK580809.1_Amanita_muscaria_subsp._flavivolvata
+|     |  |     |  |  |  +**|
+|     |  |     |  |  |     +--MK580808.1_Amanita_muscaria_subsp._flavivolvata
+|     |  |     |  +--|
+|     |  |     |     +**MG905431.1_Amanita_muscaria_subsp._flavivolvata
+|     |  |  +--|
+|     |  |  |  +--ON416919.1_Amanita_muscaria_var._guessowii
+|     |  +**|
+|     |     |           +**OP470095.1_Amanita_muscaria_subsp._flavivolvata
+|     |     |        +**|
+|     |     |        |  |  +**NODE_4042_length_838_cov_2818.429698__
+|     |     |        |  +--|
+|     |     |        |     +**_R_NODE_4042_length_838_cov_2818.429698__
+|     |     |     +**|
+|     |     |     |  +**AB080795.1_Amanita_muscaria_var._formosa
+|     |     |  +**|
+|     |     |  |  |           +**MK580715.1_Amanita_muscaria_var._formosa
+|     |     |  |  |        +--|
+|     |     |  |  |        |  +**AB080793.1_Amanita_muscaria_var._alba
+|     |     |  |  |     +**|
+|     |     |  |  |     |  +**NODE_4426_length_1463_cov_3356.980519__
+|     |     |  |  |  +**|
+|     |     |  |  |  |  +**_R_NODE_4426_length_1463_cov_3356.980519__
+|     |     |  |  +**|
+|     |     |  |     +**MK580714.1_Amanita_muscaria_var._alba
+|     |     +--|
+|     |        +**MK580740.1_Amanita_muscaria_subsp._flavivolvata
+|  +**|
+|  |  |        +**MH615052.1_Amanita_muscaria_var._guessowii
+|  |  |     +**|
+|  |  |     |  |  +**MH973159.1_Amanita_muscaria_var._guessowii
+|  |  |     |  +**|
+|  |  |     |     |  +**MH236214.1_Amanita_muscaria_var._guessowii
+|  |  |     |     +**|
+|  |  |     |        +**NODE_6285_length_857_cov_6044.569231__
+|  |  |  +**|
+|  |  |  |  |        +--MK966420.1_Amanita_muscaria_var._guessowii
+|  |  |  |  |     +**|
+|  |  |  |  |     |  +**_R_NODE_7449_length_687_cov_6477.311475__
+|  |  |  |  |  +**|
+|  |  |  |  |  |  +**EU071901.1_Amanita_muscaria
+|  |  |  |  +**|
+|  |  |  |     +--EU071899.1_Amanita_muscaria
+|  |  +**|
+|  |     |  +**EU071917.1_Amanita_muscaria
+|  |     +**|
+|  |        +**EU071916.1_Amanita_muscaria
++**|
+|  |     +**OP749707.1_Amanita_muscaria_var._guessowii
+|  |  +**|
+|  |  |  +**OK346349.1_Amanita_muscaria_var._guessowii
+|  +**|
+|     +**MH910549.1_Amanita_muscaria_var._guessowii
+|
++**MH615053.1_Amanita_muscaria_var._guessowii
+
+Tree in newick format:
+
+(OQ252774.1_Amanita_muscaria_var._guessowii:0.0000009985,(((((((((((OQ172990.1_Amanita_muscaria_var._guessowii:0.0015556752,(OK346418.1_Amanita_muscaria_var._alba:0.0028081563,NODE_7449_length_687_cov_6477.311475__:0.0000009985):0.0000011455):0.0000009985,EU071896.1_Amanita_muscaria:0.0000009985):0.0000009985,EU071893.1_Amanita_muscaria:0.0000009985):0.0000025239,((((OM952182.1_Amanita_muscaria_subsp._flavivolvata:0.0015623008,_R_NODE_1284_length_6169_cov_137.733093__:0.0000009985):0.0000018286,KJ638272.1_Amanita_muscaria_var._guessowii:0.0000009985):0.0000013517,JX030204.1_Amanita_muscaria_var._formosa:0.0000009985):0.0000021257,NODE_6264_length_505_cov_2504.654206__:0.0048511328):0.0000024404):0.0000009985,AB080788.1_Amanita_muscaria_var._formosa:0.0014449533):0.0000022513,((MZ668144.1_Amanita_muscaria_var._guessowii:0.0000009985,(EU071919.1_Amanita_muscaria:0.0000009985,AB080792.1_Amanita_muscaria_var._formosa:0.0000009985):0.0000022236):0.0014403095,NODE_1284_length_6169_cov_137.733093__:0.0000009985):0.0000020117):0.0000009985,AB080794.1_Amanita_muscaria_var._formosa:0.0042698562):0.0000023299,EU071911.1_Amanita_muscaria:0.0000022576):0.0000009985,(((((((((((((OP749823.1_Amanita_frostiana:0.0000009985,KP313580.1_Amanita_frostiana:0.0000009985):0.0000009985,KJ638273.1_Amanita_frostiana:0.0015111497):0.0000009985,KP313579.1_Amanita_frostiana:0.0000009985):0.0000009985,((KP313583.1_Amanita_frostiana:0.0000009985,KP313582.1_Amanita_frostiana:0.0000009985):0.0000009985,KP313581.1_Amanita_frostiana:0.0000009985):0.0000009985):0.0000020533,OL741520.1_Amanita_frostiana:0.0000009985):0.0145659829,((MH211685.1_Amanita_frostiana:0.0000009985,KX358018.1_Amanita_frostiana:0.0110926706):0.0000024836,MH603599.1_Amanita_gioiosa:0.0043973469):0.0148074425):0.0014193496,((((((((((((((((OP749480.1_Amanita_parcivolvata:0.0000009985,OP749372.1_Amanita_parcivolvata:0.0000009985):0.0000024647,MK580721.1_Amanita_parcivolvata:0.0015499373):0.0000020704,MZ668292.1_Amanita_parcivolvata:0.0266534401):0.0015208296,MK580681.1_Amanita_parcivolvata:0.0000009985):0.0000432005,MZ667934.1_Amanita_parcivolvata:0.0000025345):0.0000009985,MZ667943.1_Amanita_parcivolvata:0.0000009985):0.0000021954,KP313586.1_Amanita_parcivolvata:0.0000009985):0.0000009985,MZ668203.1_Amanita_parcivolvata:0.0000009985):0.0000009985,KP313585.1_Amanita_parcivolvata:0.0000009985):0.0000009985,OP749133.1_Amanita_parcivolvata:0.0000009985):0.0000020165,OP749468.1_Amanita_parcivolvata:0.0000009985):0.0000022840,MN963585.1_Amanita_parcivolvata:0.0000022953):0.0021405339,(OM473843.1_Amanita_parcivolvata:0.0000009985,((MZ668075.1_Amanita_parcivolvata:0.0000021344,MZ667964.1_Amanita_parcivolvata:0.0000027055):0.0022417866,KP313584.1_Amanita_parcivolvata:0.0000023629):0.0000025928):0.0000020931):0.0200313313,((OK299151.1_Amanita_wellsii:0.0000024351,((KU248116.1_Amanita_wellsii:0.0000023432,KU248115.1_Amanita_wellsii:0.0000021147):0.0045117293,KP313594.1_Amanita_wellsii:0.0000009985):0.0000021884):0.0000029059,(NODE_5742_length_520_cov_1.568849__:0.0000024573,_R_NODE_5742_length_520_cov_1.568849__:0.0000025782):0.0844589249):0.0204563578):0.0522330818,(((((((HQ539696.1_Amanita_frostiana:0.0000009985,AF024453.1_Amanita_frostiana:0.0000009985):0.0091793367,HQ593120.1_Amanita_muscaria_var._guessowii:0.0016153810):0.0031731495,EU071984.1_Amanita_muscaria:0.0022114349):0.0016663890,((NG_056956.1_Amanita_persicina:0.0000009985,EU071995.1_Amanita_persicina:0.0000009985):0.0015564249,AF097367.1_Amanita_muscaria:0.0000028710):0.0010595209):0.0011211353,(MH486797.1_Amanita_regalis:0.0000022497,((DQ060889.1_Amanita_regalis:0.0000009985,(DQ060885.1_Amanita_regalis:0.0000009985,DQ060884.1_Amanita_regalis:0.0000009985):0.0000009985):0.0000009985,EU071980.1_Amanita_regalis:0.0000009985):0.0000009985):0.0000026248):1.2438534767,(MG966273.1_Chalciporus_rubinellus:0.4266039597,(((((FJ235155.1_Amanita_rubescens:0.0000026033,(((NODE_1431_length_3573_cov_194.603261__:0.0000022288,_R_NODE_1431_length_3573_cov_194.603261__:0.0000022291):0.0201782731,(NODE_1650_length_3451_cov_175.794309__:0.0000009985,_R_NODE_1650_length_3451_cov_175.794309__:0.0000009985):0.0000029656):0.0393019961,NODE_789_length_8011_cov_59.802370__:0.0102983437):0.1382434483):0.0188646290,(AB015682.1_Amanita_rubescens:0.0174745915,AM084702.1_Amanita_rubescens:0.0248282809):0.0082678855):0.0059020816,AF438593.2_Amanita_rubescens:0.0000009985):0.0000027917,AJ889922.1_Amanita_rubescens:0.0000020306):0.0049868941,AF085484.1_Amanita_rubescens:0.0114694339):0.1445769947):0.0720146627):0.0154207984,(HQ539800.1_Amanita_frostiana:1.0719669729,(_R_AF159064.1_Amanita_muscaria_var._persicina:1.1264619497,_R_X15411.1_Pig_part:1.0295882922):0.1420520123):0.3184749798):0.0397863014):0.0408488467,((OP503821.1_Amanita_velatipes:0.0139306367,((MW582877.1_Amanita_velatipes:0.0031557409,((MK580778.1_Amanita_velatipes:0.0000009985,MK564535.1_Amanita_velatipes:0.0000009985):0.0000009985,(MH508643.1_Amanita_velatipes:0.0000009985,MH508642.1_Amanita_velatipes:0.0000009985):0.0000021717):0.0012034607):0.0014952754,NODE_572_length_10296_cov_1580.480478__:0.0092401081):0.0048206414):0.0118924561,((((((OP470111.1_Amanita_breckonii:0.0000022500,MK580753.1_Amanita_breckonii:0.0000024509):0.0054555553,KR919758.1_Amanita_breckonii:0.0000009985):0.0000010771,KR919756.1_Amanita_breckonii:0.0000009985):0.0000013184,KR919757.1_Amanita_breckonii:0.0000009985):0.0004170627,KJ535439.1_Amanita_breckonii:0.0000009985):0.0030920041,MK627470.1_Amanita_breckonii:0.0093921891):0.0098643153):0.0098288313):0.0023901067):0.0039741194,(OP503832.1_Amanita_velatipes:0.0067780987,(((OP480716.1_Amanita_persicina:0.0000009985,((((ON412925.1_Amanita_persicina:0.0150386149,EU071886.1_Amanita_persicina:0.0000022196):0.0025944221,NR_154668.1_Amanita_persicina:0.0000009985):0.0000009985,EU071926.1_Amanita_persicina:0.0000009985):0.0000022067,MK571179.1_Amanita_persicina:0.0000009985):0.0000022188):0.0000020702,(ON383440.1_Amanita_persicina:0.0000009985,ON080962.1_Amanita_persicina:0.0045805598):0.0000009985):0.0000022288,MK580713.1_Amanita_persicina:0.0000009985):0.0064420936):0.0070202086):0.0016760301,((MK580664.1_Amanita_muscaria_var._formosa:0.0000027457,MK580662.1_Amanita_muscaria_var._formosa:0.0000025157):0.0044150736,((((((((((((((((((MK461189.1_Amanita_muscaria:0.0000044175,(EU071895.1_Amanita_muscaria:0.0000009985,EU071894.1_Amanita_muscaria:0.0000009985):0.0062103201):0.0000021374,EU071914.1_Amanita_muscaria:0.0000009985):0.0000021367,EU071909.1_Amanita_muscaria:0.0046543396):0.0000020317,NODE_4835_length_1053_cov_1781.494877__:0.0000009985):0.0000020960,(EU071937.1_Amanita_muscaria:0.0030835201,EU071915.1_Amanita_muscaria:0.0000026341):0.0077666065):0.0000012898,NODE_1369_length_5133_cov_2163.075158__:0.0000009985):0.0000010366,EU071912.1_Amanita_muscaria:0.0000009985):0.0000015856,EU071918.1_Amanita_muscaria:0.0000009985):0.0000010091,_R_NODE_8620_length_519_cov_1201.608597__:0.0000009985):0.0000010738,NODE_1217_length_5737_cov_2031.369965__:0.0015419668):0.0000015123,NODE_5540_length_785_cov_2526.313559__:0.0000009985):0.0000011888,NODE_8620_length_519_cov_1201.608597__:0.0000027726):0.0000022420,NODE_4234_length_1123_cov_2346.187380__:0.0000009985):0.0000020993,(NODE_3793_length_1263_cov_902.958685__:0.0000009985,_R_NODE_3793_length_1263_cov_902.958685__:0.0000021697):0.0015489667):0.0000011502,(KP866167.1_Amanita_muscaria:0.0000025603,((((EU071920.1_Amanita_muscaria:0.0051528393,_R_NODE_4794_length_1017_cov_977.284043__:0.0000009985):0.0003912661,NODE_2636_length_1570_cov_492.735432__:0.0000009985):0.0000009985,EU071897.1_Amanita_muscaria:0.0000009985):0.0000027731,NODE_1199_length_4691_cov_928.934764__:0.0000009985):0.0018185837):0.0030865766):0.0000010706,NODE_3194_length_1473_cov_818.204155__:0.0000009985):0.0000021525,NODE_4794_length_1017_cov_977.284043__:0.0000022566):0.0010635654,KP866193.1_Amanita_muscaria:0.0014943568):0.0021392878):0.0048842737):0.0010824423,(((((((((MW553145.1_Amanita_regalis:0.0087317527,AB080781.1_Amanita_muscaria_var._regalis:0.0014509711):0.0000022722,(AB080782.1_Amanita_muscaria_var._regalis:0.0000009985,AB080780.1_Amanita_muscaria_var._regalis:0.0000009985):0.0014508820):0.0000022852,DQ060909.1_Amanita_regalis:0.0000009985):0.0000009985,DQ060905.1_Amanita_regalis:0.0000009985):0.0000009985,EU071907.1_Amanita_regalis:0.0000009985):0.0000009985,JF907764.1_Amanita_regalis:0.0000009985):0.0000009985,EF493268.1_Amanita_muscaria_var._regalis:0.0000009985):0.0000023720,MH508537.1_Amanita_regalis:0.0000009985):0.0000009985,LT594941.1_Amanita_regalis:0.0000025406):0.0028174294):0.0073418139,((MK290420.1_Amanita_muscaria_subsp._flavivolvata:0.0000026332,(MK580809.1_Amanita_muscaria_subsp._flavivolvata:0.0000009985,MK580808.1_Amanita_muscaria_subsp._flavivolvata:0.0073746037):0.0000021738):0.0000021509,MG905431.1_Amanita_muscaria_subsp._flavivolvata:0.0000021012):0.0072510526):0.0000022544,ON416919.1_Amanita_muscaria_var._guessowii:0.0029667906):0.0015676953,((((OP470095.1_Amanita_muscaria_subsp._flavivolvata:0.0000009985,(NODE_4042_length_838_cov_2818.429698__:0.0000024969,_R_NODE_4042_length_838_cov_2818.429698__:0.0000023476):0.0073006389):0.0000026337,AB080795.1_Amanita_muscaria_var._formosa:0.0000009985):0.0000028797,((((MK580715.1_Amanita_muscaria_var._formosa:0.0000009985,AB080793.1_Amanita_muscaria_var._alba:0.0000009985):0.0010187483,NODE_4426_length_1463_cov_3356.980519__:0.0000009985):0.0000017657,_R_NODE_4426_length_1463_cov_3356.980519__:0.0000009985):0.0002160106,MK580714.1_Amanita_muscaria_var._alba:0.0000009985):0.0001906844):0.0000009985,MK580740.1_Amanita_muscaria_subsp._flavivolvata:0.0000009985):0.0016452539):0.0000029294):0.0028482140,(((MH615052.1_Amanita_muscaria_var._guessowii:0.0000009985,(MH973159.1_Amanita_muscaria_var._guessowii:0.0000009985,(MH236214.1_Amanita_muscaria_var._guessowii:0.0000009985,NODE_6285_length_857_cov_6044.569231__:0.0000009985):0.0000009985):0.0000021487):0.0000009985,(((MK966420.1_Amanita_muscaria_var._guessowii:0.0016319823,_R_NODE_7449_length_687_cov_6477.311475__:0.0000009985):0.0000009985,EU071901.1_Amanita_muscaria:0.0000009985):0.0000009985,EU071899.1_Amanita_muscaria:0.0030746205):0.0000009985):0.0000009985,(EU071917.1_Amanita_muscaria:0.0000009985,EU071916.1_Amanita_muscaria:0.0000009985):0.0000009985):0.0000021976):0.0000009985,((OP749707.1_Amanita_muscaria_var._guessowii:0.0000023693,OK346349.1_Amanita_muscaria_var._guessowii:0.0000009985):0.0000026713,MH910549.1_Amanita_muscaria_var._guessowii:0.0000009985):0.0000027772):0.0000009985,MH615053.1_Amanita_muscaria_var._guessowii:0.0000009985);
+
+TIME STAMP
+----------
+
+Date and time: Thu Apr  6 11:08:44 2023
+Total CPU time used: 148.607 seconds (0h:2m:28s)
+Total wall-clock time used: 173.658 seconds (0h:2m:53s)
+

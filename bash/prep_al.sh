@@ -21,6 +21,8 @@ sed 's/>//g' temp_file.txt > temp_2.txt
 
 seqkit replace --quiet -p "(.+)" -r '{kv}'  -k temp_2.txt ${1} > prepped_${1}
 
-trimal -in prepped_${1} -out ${1}_for_phylo.fa
+trimal -in prepped_${1} -out for_phylo_${1} 
+
+seqkit rmdup -n for_phylo_${1} > fully_prepped_${1}
 
 rm temp_file.txt temp_2.txt prepped_${1}
