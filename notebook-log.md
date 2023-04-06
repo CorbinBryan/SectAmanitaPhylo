@@ -8,10 +8,18 @@ This project is aimed at generating a multilocus phylogeny for North American sp
 * note all genomes had been trimmed, qc'd and assembled before they were passed on to me for use. 
 * using the `genbank_dl.sh` script. This was done on a high throughput computing cluster, where the files are now hosted for the time being. 
 
-See `blast_genomes.sh` for the script to blast against each of the aformentioned genomes. The genomes used in this particular project are assemblies from paired end Illumina seq data. 
-
-See the `blastOut_grab.sh` for using the hits to get `.fasta` format data from genomes. 
-
 **NOTE FASTQC WAS ALREADY PERFORMED PRIOR TO WHEN I RECEIVED THESE ASSEMBLIES**. As was trimming and assembly. 
 
-Current state: QC'd, awaiting alignments. 
+## Obtaining sequences 
+Sequences were obtained from GenBank, and the accessions listed in the directory `./GB_acc_no` using a script (`genbank_dl.sh`) that calls the NCBI e-utils to download each and store in `.fasta` file. This was done for each of the four loci. The scripts `blast_genomes.sh` and `extract_4loci.sh` were used to identify and extract each of the four loci mentioned above, resopectively from 25 genomes from _Amanita muscaria_. These two data sets were then concatenated. 
+
+Note that these genomes are not yet publically available. 
+
+## Alignment 
+Each concatenated `.fasta` was aligned separately using two independent alignment softwares. (disucss this more later)
+
+FastTree was used to construct a tree Each alignment was manually inspected, and overly gappy sequences were removed. A list of the removed sequences can be found in the `*_taxa_removed.txt` files in this directory. See my `remove_taxa.sh` script for details on how this was performed. Note that this script calls mafft on any input file it receives to update an alignment from which taxa were removed. 
+
+To prepare taxa for phylogenetic analysis, a small pipeline was written to rename taxa, remove sequences with duplicated headers, and trim the alignment using TrimAl. Details of this can be found in `prep_al.sh`. 
+
+## Constructing MP & Distance Trees  
