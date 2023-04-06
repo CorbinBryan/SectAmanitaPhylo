@@ -1,0 +1,252 @@
+OP749823.1 Amanita frostiana isolate S.D. Russell ONT iNaturalist 136735231 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	OP749823.1_Amanita_frostiana
+MK580721.1 Amanita parcivolvata isolate 723 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	MK580721.1_Amanita_parcivolvata
+NODE_2636_length_1570_cov_492.735432	NODE_2636_length_1570_cov_492.735432__
+NODE_1217_length_5737_cov_2031.369965	NODE_1217_length_5737_cov_2031.369965__
+NR_154668.1 Amanita persicina RET 151-4 ITS region; from TYPE material	NR_154668.1_Amanita_persicina
+MZ668075.1 Amanita parcivolvata voucher S.D. Russell MycoMap # 518 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	MZ668075.1_Amanita_parcivolvata
+NODE_4042_length_838_cov_2818.429698 dupelabel2	NODE_4042_length_838_cov_2818.429698_dupelabel2_
+NODE_1431_length_3573_cov_194.603261	NODE_1431_length_3573_cov_194.603261__
+OP480716.1 Amanita persicina isolate iNat99043443 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	OP480716.1_Amanita_persicina
+NODE_4042_length_838_cov_2818.429698 dupelabel1	NODE_4042_length_838_cov_2818.429698_dupelabel1_
+EU071984.1 Amanita muscaria strain RET320-1 large subunit ribosomal RNA gene, partial sequence	EU071984.1_Amanita_muscaria
+JF907764.1 Amanita regalis voucher 17157 18S ribosomal RNA gene, internal transcribed spacer 1, 5.8S ribosomal RNA gene, internal transcribed spacer 2, and 28S ribosomal RNA gene, region	JF907764.1_Amanita_regalis
+AB080795.1 Amanita muscaria var. formosa genes for 18S rRNA, ITS1, 5.8S rRNA, ITS2, 26S rRNA, specimen_voucher:HDT45060(SFSU)	AB080795.1_Amanita_muscaria_var._formosa
+MN963585.1 Amanita parcivolvata voucher RET 614-4 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	MN963585.1_Amanita_parcivolvata
+NODE_8620_length_519_cov_1201.608597 dupelabel3	NODE_8620_length_519_cov_1201.608597_dupelabel3_
+EU071968.1 Amanita persicina strain RET151-6 large subunit ribosomal RNA gene, partial sequence	EU071968.1_Amanita_persicina
+NODE_1986_length_2117_cov_2194.150490 dupelabel2	NODE_1986_length_2117_cov_2194.150490_dupelabel2_
+AM084702.1 Amanita rubescens 18S rRNA gene, ITS1, 5.8S rRNA gene, ITS2 and 28S rRNA gene	AM084702.1_Amanita_rubescens
+NODE_1431_length_3573_cov_194.603261 dupelabel7	NODE_1431_length_3573_cov_194.603261_dupelabel7_
+AJ889922.1 Amanita rubescens partial 18S rRNA gene, ITS1, 5.8S rRNA gene, ITS2 and partial 25S rRNA gene, specimen voucher MC01-556	AJ889922.1_Amanita_rubescens
+NODE_3793_length_1263_cov_902.958685 dupelabel2	NODE_3793_length_1263_cov_902.958685_dupelabel2_
+NODE_4042_length_838_cov_2818.429698	NODE_4042_length_838_cov_2818.429698__
+AB096049.1 Amanita muscaria var. regalis genes for 18S rRNA, ITS1, 5.8S rRNA, ITS2, 28S rRNA, partial and complete sequence, specimen_voucher: FB-30981(CBM); LEM960338	AB096049.1_Amanita_muscaria_var._regalis
+NODE_1284_length_6169_cov_137.733093 dupelabel2	NODE_1284_length_6169_cov_137.733093_dupelabel2_
+MK580778.1 Amanita velatipes isolate 695 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	MK580778.1_Amanita_velatipes
+KP313586.1 Amanita parcivolvata voucher RET 504-5 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	KP313586.1_Amanita_parcivolvata
+NODE_1986_length_2117_cov_2194.150490 dupelabel3	NODE_1986_length_2117_cov_2194.150490_dupelabel3_
+MH211685.1 Amanita frostiana voucher FLAS-F-60921 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	MH211685.1_Amanita_frostiana
+KJ535439.1 Amanita breckonii voucher NY 00066695 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	KJ535439.1_Amanita_breckonii
+MK580713.1 Amanita persicina isolate 82 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	MK580713.1_Amanita_persicina
+NODE_1431_length_3573_cov_194.603261 dupelabel5	NODE_1431_length_3573_cov_194.603261_dupelabel5_
+NODE_1986_length_2117_cov_2194.150490 dupelabel1	NODE_1986_length_2117_cov_2194.150490_dupelabel1_
+OM473843.1 Amanita parcivolvata isolate S.D. Russell iNaturalist # 56785535 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	OM473843.1_Amanita_parcivolvata
+MK580664.1 Amanita muscaria var. formosa isolate 5550 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	MK580664.1_Amanita_muscaria_var._formosa
+EU071918.1 Amanita muscaria strain RET141-2 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	EU071918.1_Amanita_muscaria
+NODE_1858_length_2622_cov_2128.668762 dupelabel3	NODE_1858_length_2622_cov_2128.668762_dupelabel3_
+DQ060889.1 Amanita regalis strain GAL6027 large subunit ribosomal RNA gene, partial sequence	DQ060889.1_Amanita_regalis
+MH508643.1 Amanita velatipes voucher RET 489-2 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	MH508643.1_Amanita_velatipes
+X15411.1 Pig part of truncated L1 repeat sequence L1Ss	X15411.1_Pig_part
+KP313584.1 Amanita parcivolvata voucher RET 511-10 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	KP313584.1_Amanita_parcivolvata
+EU071965.1 Amanita persicina strain RET112-6 large subunit ribosomal RNA gene, partial sequence	EU071965.1_Amanita_persicina
+EU071915.1 Amanita muscaria strain RET143-5 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	EU071915.1_Amanita_muscaria
+EU071892.1 Amanita persicina strain RET151-4 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	EU071892.1_Amanita_persicina
+EU071980.1 Amanita regalis strain GAL17647 large subunit ribosomal RNA gene, partial sequence	EU071980.1_Amanita_regalis
+AF024453.1 Amanita frostiana large subunit ribosomal RNA gene, partial sequence	AF024453.1_Amanita_frostiana
+MH973159.1 Amanita muscaria var. guessowii voucher Mushroom Observer # 319932 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	MH973159.1_Amanita_muscaria_var._guessowii
+NODE_1650_length_3451_cov_175.794309 dupelabel6	NODE_1650_length_3451_cov_175.794309_dupelabel6_
+NODE_4794_length_1017_cov_977.284043 dupelabel2	NODE_4794_length_1017_cov_977.284043_dupelabel2_
+NODE_8620_length_519_cov_1201.608597 dupelabel2	NODE_8620_length_519_cov_1201.608597_dupelabel2_
+FJ235155.1 Amanita rubescens internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	FJ235155.1_Amanita_rubescens
+EU071909.1 Amanita muscaria strain RET107-6 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	EU071909.1_Amanita_muscaria
+OP749468.1 Amanita parcivolvata isolate S.D. Russell ONT iNaturalist 130023038 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	OP749468.1_Amanita_parcivolvata
+NODE_4426_length_1463_cov_3356.980519 dupelabel1	NODE_4426_length_1463_cov_3356.980519_dupelabel1_
+NODE_1369_length_5133_cov_2163.075158 dupelabel3	NODE_1369_length_5133_cov_2163.075158_dupelabel3_
+MK461189.1 Amanita muscaria voucher RET 036-3 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	MK461189.1_Amanita_muscaria
+NODE_5742_length_520_cov_1.568849 dupelabel2	NODE_5742_length_520_cov_1.568849_dupelabel2_
+OP749707.1 Amanita muscaria var. guessowii isolate S.D. Russell ONT iNaturalist 137600283 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	OP749707.1_Amanita_muscaria_var._guessowii
+EU071895.1 Amanita muscaria strain RET149-1 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	EU071895.1_Amanita_muscaria
+OP470111.1 Amanita breckonii isolate MO402943 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	OP470111.1_Amanita_breckonii
+NODE_1663_length_3939_cov_1163.825220	NODE_1663_length_3939_cov_1163.825220__
+NODE_1431_length_3573_cov_194.603261 dupelabel3	NODE_1431_length_3573_cov_194.603261_dupelabel3_
+NODE_2325_length_1481_cov_2137.812678	NODE_2325_length_1481_cov_2137.812678__
+NODE_1650_length_3451_cov_175.794309 dupelabel5	NODE_1650_length_3451_cov_175.794309_dupelabel5_
+NODE_3793_length_1263_cov_902.958685 dupelabel3	NODE_3793_length_1263_cov_902.958685_dupelabel3_
+MT406075.1 Amanita sp. 'ameripanthera' voucher RET 423-9 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	MT406075.1_Amanita_sp._'ameripanthera'
+EU071920.1 Amanita muscaria strain RET152-8 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	EU071920.1_Amanita_muscaria
+EU071899.1 Amanita muscaria strain RET271-2 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	EU071899.1_Amanita_muscaria
+KP313581.1 Amanita frostiana voucher RET 547-2 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	KP313581.1_Amanita_frostiana
+NODE_8620_length_519_cov_1201.608597	NODE_8620_length_519_cov_1201.608597__
+OP749372.1 Amanita parcivolvata isolate S.D. Russell ONT iNaturalist 136440274 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	OP749372.1_Amanita_parcivolvata
+NODE_1284_length_6169_cov_137.733093 dupelabel1	NODE_1284_length_6169_cov_137.733093_dupelabel1_
+NODE_1431_length_3573_cov_194.603261 dupelabel6	NODE_1431_length_3573_cov_194.603261_dupelabel6_
+EU071964.1 Amanita persicina strain RET112-5 large subunit ribosomal RNA gene, partial sequence	EU071964.1_Amanita_persicina
+EU071916.1 Amanita muscaria strain RET158-7 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	EU071916.1_Amanita_muscaria
+AF438593.2 Amanita rubescens 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, complete sequence; and 5.8S ribosomal RNA gene, partial sequence	AF438593.2_Amanita_rubescens
+NODE_7449_length_687_cov_6477.311475 dupelabel3	NODE_7449_length_687_cov_6477.311475_dupelabel3_
+EU071887.1 Amanita persicina strain RET112-5 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	EU071887.1_Amanita_persicina
+MH615052.1 Amanita muscaria var. guessowii strain VRH20 (TENN) internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	MH615052.1_Amanita_muscaria_var._guessowii
+ON412925.1 Amanita persicina voucher TENN-F-074672 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1 and 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	ON412925.1_Amanita_persicina
+NODE_1431_length_3573_cov_194.603261 dupelabel4	NODE_1431_length_3573_cov_194.603261_dupelabel4_
+EU071890.1 Amanita muscaria strain RET032-1 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	EU071890.1_Amanita_muscaria
+NODE_2591_length_1772_cov_3604.982891	NODE_2591_length_1772_cov_3604.982891__
+OQ252774.1 Amanita muscaria var. guessowii voucher jlh0003-22 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	OQ252774.1_Amanita_muscaria_var._guessowii
+NODE_1650_length_3451_cov_175.794309 dupelabel4	NODE_1650_length_3451_cov_175.794309_dupelabel4_
+EU071911.1 Amanita muscaria strain RET320-1 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	EU071911.1_Amanita_muscaria
+NODE_1986_length_2117_cov_2194.150490	NODE_1986_length_2117_cov_2194.150490__
+NODE_2636_length_1570_cov_492.735432 dupelabel1	NODE_2636_length_1570_cov_492.735432_dupelabel1_
+JX030204.1 Amanita muscaria var. formosa isolate A_musc_1-1-1TC internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	JX030204.1_Amanita_muscaria_var._formosa
+MH508537.1 Amanita regalis voucher HKAS56699 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	MH508537.1_Amanita_regalis
+AB080793.1 Amanita muscaria var. alba genes for 18S rRNA, ITS1, 5.8S rRNA, ITS2, 26S rRNA, specimen_voucher:HDT49100(SFSU)	AB080793.1_Amanita_muscaria_var._alba
+NODE_5742_length_520_cov_1.568849	NODE_5742_length_520_cov_1.568849__
+MK580714.1 Amanita muscaria var. alba isolate 87 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	MK580714.1_Amanita_muscaria_var._alba
+NODE_12528_length_1030_cov_1124.693599	NODE_12528_length_1030_cov_1124.693599__
+MK580808.1 Amanita muscaria subsp. flavivolvata isolate 751 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	MK580808.1_Amanita_muscaria_subsp._flavivolvata
+NODE_714_length_11022_cov_321.674463	NODE_714_length_11022_cov_321.674463__
+OP470095.1 Amanita muscaria subsp. flavivolvata isolate MO450042 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	OP470095.1_Amanita_muscaria_subsp._flavivolvata
+EU071969.1 Amanita persicina strain RET151-4 large subunit ribosomal RNA gene, partial sequence	EU071969.1_Amanita_persicina
+EF493268.1 Amanita muscaria var. regalis voucher UP540 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1 and 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	EF493268.1_Amanita_muscaria_var._regalis
+AB080792.1 Amanita muscaria var. formosa genes for 18S rRNA, ITS1, 5.8S rRNA, ITS2, 26S rRNA, specimen_voucher:45883(NY)	AB080792.1_Amanita_muscaria_var._formosa
+NODE_3793_length_1263_cov_902.958685	NODE_3793_length_1263_cov_902.958685__
+HQ539800.1 Amanita frostiana voucher BW_PH37 18S ribosomal RNA gene, partial sequence	HQ539800.1_Amanita_frostiana
+MZ668203.1 Amanita parcivolvata voucher S.D. Russell iNaturalist # 29480492 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	MZ668203.1_Amanita_parcivolvata
+KR919757.1 Amanita breckonii voucher RET 174-8a internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	KR919757.1_Amanita_breckonii
+KP313580.1 Amanita frostiana voucher RET 543-6 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	KP313580.1_Amanita_frostiana
+NODE_4835_length_1053_cov_1781.494877	NODE_4835_length_1053_cov_1781.494877__
+AB015682.1 Amanita rubescens genes for 18S rRNA, ITS1, 5.8S rRNA, ITS2, 26S rRNA, partial and complete sequence, isolate: LEM950063	AB015682.1_Amanita_rubescens
+ON383440.1 Amanita persicina voucher MES-3180_FLAS-F-63802 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	ON383440.1_Amanita_persicina
+AB081296.1 Amanita muscaria var. regalis genes for 18S rRNA, ITS1, 5.8S rRNA, ITS2, 26S rRNA, specimen_voucher:FB-30978(CBM); LEM960337	AB081296.1_Amanita_muscaria_var._regalis
+KR919758.1 Amanita breckonii voucher RET 174-8b internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	KR919758.1_Amanita_breckonii
+KP866167.1 Amanita muscaria voucher RET 473-5 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	KP866167.1_Amanita_muscaria
+MZ667943.1 Amanita parcivolvata voucher S.D. Russell Mushroom Observer # 209609 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	MZ667943.1_Amanita_parcivolvata
+MG966273.1 Chalciporus rubinellus voucher MushroomObserver.org/225561 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	MG966273.1_Chalciporus_rubinellus
+MZ668144.1 Amanita muscaria var. guessowii voucher S.D. Russell iNaturalist # 17991683 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	MZ668144.1_Amanita_muscaria_var._guessowii
+NODE_1858_length_2622_cov_2128.668762	NODE_1858_length_2622_cov_2128.668762__
+EU071901.1 Amanita muscaria strain RET289-3 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	EU071901.1_Amanita_muscaria
+KX358018.1 Amanita frostiana isolate MB62 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	KX358018.1_Amanita_frostiana
+EU071896.1 Amanita muscaria strain RET124-2 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	EU071896.1_Amanita_muscaria
+NODE_4042_length_838_cov_2818.429698 dupelabel3	NODE_4042_length_838_cov_2818.429698_dupelabel3_
+AB080788.1 Amanita muscaria var. formosa genes for 18S rRNA, ITS1, 5.8S rRNA, ITS2, 26S rRNA, specimen_voucher:45843(NY)	AB080788.1_Amanita_muscaria_var._formosa
+NODE_724_length_9697_cov_324.158212	NODE_724_length_9697_cov_324.158212__
+KP313585.1 Amanita parcivolvata voucher RET 297-1 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1 and 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	KP313585.1_Amanita_parcivolvata
+OP503821.1 Amanita velatipes voucher NY:49001 5.8S ribosomal RNA gene, partial sequence; internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	OP503821.1_Amanita_velatipes
+EU071886.1 Amanita persicina strain RET024-3 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	EU071886.1_Amanita_persicina
+EU071891.1 Amanita persicina strain RET151-6 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	EU071891.1_Amanita_persicina
+OP749480.1 Amanita parcivolvata isolate S.D. Russell ONT iNaturalist 130423093 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	OP749480.1_Amanita_parcivolvata
+MK580753.1 Amanita breckonii isolate 687 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	MK580753.1_Amanita_breckonii
+NODE_1199_length_4691_cov_928.934764	NODE_1199_length_4691_cov_928.934764__
+NODE_1369_length_5133_cov_2163.075158 dupelabel2	NODE_1369_length_5133_cov_2163.075158_dupelabel2_
+AB080782.1 Amanita muscaria var. regalis genes for 18S rRNA, ITS1, 5.8S rRNA, ITS2, 26S rRNA, specimen_voucher:4220(O)	AB080782.1_Amanita_muscaria_var._regalis
+KU248116.1 Amanita wellsii voucher RET 259-1 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	KU248116.1_Amanita_wellsii
+OK346418.1 Amanita muscaria var. alba voucher iNat17296703 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	OK346418.1_Amanita_muscaria_var._alba
+NODE_7449_length_687_cov_6477.311475 dupelabel1	NODE_7449_length_687_cov_6477.311475_dupelabel1_
+EU071894.1 Amanita muscaria strain RET149-2 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	EU071894.1_Amanita_muscaria
+KJ638273.1 Amanita frostiana isolate 2185 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	KJ638273.1_Amanita_frostiana
+NODE_8620_length_519_cov_1201.608597 dupelabel1	NODE_8620_length_519_cov_1201.608597_dupelabel1_
+NODE_2881_length_1344_cov_1741.101815	NODE_2881_length_1344_cov_1741.101815__
+NODE_1369_length_5133_cov_2163.075158 dupelabel1	NODE_1369_length_5133_cov_2163.075158_dupelabel1_
+MT406067.1 Amanita sp. 'ameripanthera' voucher RET 701-3 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	MT406067.1_Amanita_sp._'ameripanthera'
+AB080781.1 Amanita muscaria var. regalis genes for 18S rRNA, ITS1, 5.8S rRNA, ITS2, 26S rRNA, specimen_voucher:1539(O)	AB080781.1_Amanita_muscaria_var._regalis
+NODE_2636_length_1570_cov_492.735432 dupelabel3	NODE_2636_length_1570_cov_492.735432_dupelabel3_
+HQ593120.1 Amanita muscaria var. guessowii voucher Koide BX008 large subunit ribosomal RNA gene, partial sequence	HQ593120.1_Amanita_muscaria_var._guessowii
+NODE_2327_length_1698_cov_2723.322640	NODE_2327_length_1698_cov_2723.322640__
+EU071888.1 Amanita persicina strain RET112-6 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	EU071888.1_Amanita_persicina
+AB080780.1 Amanita muscaria var. regalis genes for 18S rRNA, ITS1, 5.8S rRNA, ITS2, 26S rRNA, specimen_voucher:506(O)	AB080780.1_Amanita_muscaria_var._regalis
+DQ060884.1 Amanita regalis strain GAL2810 large subunit ribosomal RNA gene, partial sequence	DQ060884.1_Amanita_regalis
+OQ172990.1 Amanita muscaria var. guessowii internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	OQ172990.1_Amanita_muscaria_var._guessowii
+MK290420.1 Amanita muscaria subsp. flavivolvata voucher Mushroom Observer 325616 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	MK290420.1_Amanita_muscaria_subsp._flavivolvata
+MT427832.1 Amanita sp. 'ameripanthera' voucher RET 014-8 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1 and 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	MT427832.1_Amanita_sp._'ameripanthera'
+EU071937.1 Amanita muscaria strain GAL4810 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	EU071937.1_Amanita_muscaria
+NODE_1431_length_3573_cov_194.603261 dupelabel2	NODE_1431_length_3573_cov_194.603261_dupelabel2_
+MK204466.1 Amanita sp. 'subvelatipes' voucher RET 674-9 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	MK204466.1_Amanita_sp._'subvelatipes'
+DQ060909.1 Amanita regalis strain GAL6027 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	DQ060909.1_Amanita_regalis
+NODE_4794_length_1017_cov_977.284043	NODE_4794_length_1017_cov_977.284043__
+NODE_4426_length_1463_cov_3356.980519 dupelabel2	NODE_4426_length_1463_cov_3356.980519_dupelabel2_
+MH236214.1 Amanita muscaria var. guessowii voucher 01-2018 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	MH236214.1_Amanita_muscaria_var._guessowii
+EU071995.1 Amanita persicina strain RET328-2 large subunit ribosomal RNA gene, partial sequence	EU071995.1_Amanita_persicina
+NODE_1284_length_6169_cov_137.733093	NODE_1284_length_6169_cov_137.733093__
+MZ668292.1 Amanita parcivolvata voucher S.D. Russell Mushroom Observer # 213797 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	MZ668292.1_Amanita_parcivolvata
+NODE_572_length_10296_cov_1580.480478	NODE_572_length_10296_cov_1580.480478__
+MK580809.1 Amanita muscaria subsp. flavivolvata isolate 753 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	MK580809.1_Amanita_muscaria_subsp._flavivolvata
+EU071963.1 Amanita persicina strain RET024-3 large subunit ribosomal RNA gene, partial sequence	EU071963.1_Amanita_persicina
+NODE_1369_length_5133_cov_2163.075158	NODE_1369_length_5133_cov_2163.075158__
+OM952182.1 Amanita muscaria subsp. flavivolvata MushroomObserver.org/462858 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	OM952182.1_Amanita_muscaria_subsp._flavivolvata
+NG_056956.1 Amanita persicina RET 151-4 28S rRNA gene, partial sequence; from TYPE material	NG_056956.1_Amanita_persicina
+MH615053.1 Amanita muscaria var. guessowii strain AMO25 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	MH615053.1_Amanita_muscaria_var._guessowii
+DQ060885.1 Amanita regalis strain GAL3169 large subunit ribosomal RNA gene, partial sequence	DQ060885.1_Amanita_regalis
+NODE_1284_length_6169_cov_137.733093 dupelabel3	NODE_1284_length_6169_cov_137.733093_dupelabel3_
+MK966420.1 Amanita muscaria var. guessowii voucher APBP111 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	MK966420.1_Amanita_muscaria_var._guessowii
+HQ539696.1 Amanita frostiana voucher BW_PH37 large subunit ribosomal RNA gene, partial sequence	HQ539696.1_Amanita_frostiana
+LT594941.1 Amanita regalis genomic DNA sequence contains 18S rRNA gene, ITS1, 5.8S rRNA gene, ITS2, 28S rRNA gene, strain A 46, specimen voucher PRM 860899	LT594941.1_Amanita_regalis
+EU071919.1 Amanita muscaria strain RET271-3 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	EU071919.1_Amanita_muscaria
+NODE_1650_length_3451_cov_175.794309 dupelabel2	NODE_1650_length_3451_cov_175.794309_dupelabel2_
+NODE_6264_length_505_cov_2504.654206	NODE_6264_length_505_cov_2504.654206__
+NODE_4426_length_1463_cov_3356.980519 dupelabel3	NODE_4426_length_1463_cov_3356.980519_dupelabel3_
+NODE_789_length_8011_cov_59.802370	NODE_789_length_8011_cov_59.802370__
+NODE_1431_length_3573_cov_194.603261 dupelabel1	NODE_1431_length_3573_cov_194.603261_dupelabel1_
+DQ060904.1 Amanita regalis strain GAL2810 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	DQ060904.1_Amanita_regalis
+NODE_4794_length_1017_cov_977.284043 dupelabel3	NODE_4794_length_1017_cov_977.284043_dupelabel3_
+NODE_7449_length_687_cov_6477.311475	NODE_7449_length_687_cov_6477.311475__
+MT406079.1 Amanita sp. 'ameripanthera' voucher RET 042-3 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	MT406079.1_Amanita_sp._'ameripanthera'
+MW582877.1 Amanita velatipes voucher iNaturalist #18305191 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	MW582877.1_Amanita_velatipes
+MN963578.1 Amanita sp. 'austrowellsii' voucher RET 302-1 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	MN963578.1_Amanita_sp._'austrowellsii'
+OP503832.1 Amanita velatipes voucher TENN:F-066368 5.8S ribosomal RNA gene, partial sequence; internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	OP503832.1_Amanita_velatipes
+MH508642.1 Amanita velatipes voucher RET 378-3 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	MH508642.1_Amanita_velatipes
+MK580740.1 Amanita muscaria subsp. flavivolvata isolate 765 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	MK580740.1_Amanita_muscaria_subsp._flavivolvata
+NODE_4234_length_1123_cov_2346.187380	NODE_4234_length_1123_cov_2346.187380__
+NODE_4794_length_1017_cov_977.284043 dupelabel1	NODE_4794_length_1017_cov_977.284043_dupelabel1_
+MH910549.1 Amanita muscaria var. guessowii voucher NAMA 2015-255 Mushroom Observer # 247220 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	MH910549.1_Amanita_muscaria_var._guessowii
+NODE_1858_length_2622_cov_2128.668762 dupelabel1	NODE_1858_length_2622_cov_2128.668762_dupelabel1_
+AF097367.1 Amanita muscaria strain JM96/63 large subunit ribosomal RNA gene, partial sequence	AF097367.1_Amanita_muscaria
+OL741520.1 Amanita frostiana voucher ACAD21078F mushroomobserver.org/475595 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	OL741520.1_Amanita_frostiana
+AB080794.1 Amanita muscaria var. formosa genes for 18S rRNA, ITS1, 5.8S rRNA, ITS2, 26S rRNA, specimen_voucher:HDT44761(SFSU)	AB080794.1_Amanita_muscaria_var._formosa
+MK580681.1 Amanita parcivolvata isolate 105 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	MK580681.1_Amanita_parcivolvata
+MK627470.1 Amanita breckonii voucher 17_A07 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1 and 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	MK627470.1_Amanita_breckonii
+NODE_5742_length_520_cov_1.568849 dupelabel1	NODE_5742_length_520_cov_1.568849_dupelabel1_
+MZ667964.1 Amanita parcivolvata voucher S.D. Russell Mushroom Observer # 213951 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	MZ667964.1_Amanita_parcivolvata
+MK204467.1 Amanita sp. 'subvelatipes' voucher RET 483-10 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	MK204467.1_Amanita_sp._'subvelatipes'
+ON416919.1 Amanita muscaria var. guessowii isolate NEMF 2018 iNaturalist # 14816294 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	ON416919.1_Amanita_muscaria_var._guessowii
+MK564535.1 Amanita velatipes voucher S.D. Russell MycoMap 6249 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	MK564535.1_Amanita_velatipes
+KP313583.1 Amanita frostiana voucher RET 588-6 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	KP313583.1_Amanita_frostiana
+EU071893.1 Amanita muscaria strain RET383-3 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	EU071893.1_Amanita_muscaria
+NODE_5742_length_520_cov_1.568849 dupelabel3	NODE_5742_length_520_cov_1.568849_dupelabel3_
+NODE_3194_length_1473_cov_818.204155	NODE_3194_length_1473_cov_818.204155__
+AF159064.1 Amanita muscaria var. persicina isolate JM 96/63 12S small ribosomal RNA gene, partial sequence; mitochondrial gene for mitochondrial product	AF159064.1_Amanita_muscaria_var._persicina
+MT406074.1 Amanita sp. 'ameripanthera' voucher RET 274-9 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	MT406074.1_Amanita_sp._'ameripanthera'
+MT421965.1 Amanita sp. 'ameripanthera' voucher RET 115-8 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	MT421965.1_Amanita_sp._'ameripanthera'
+MG905431.1 Amanita muscaria subsp. flavivolvata voucher MushroomObserver.org/225560 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	MG905431.1_Amanita_muscaria_subsp._flavivolvata
+AF085484.1 Amanita rubescens 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1 and 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	AF085484.1_Amanita_rubescens
+EU071914.1 Amanita muscaria strain RET309-3 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	EU071914.1_Amanita_muscaria
+EU071926.1 Amanita persicina strain RET328-2 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	EU071926.1_Amanita_persicina
+EU071897.1 Amanita muscaria strain RET152-6 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	EU071897.1_Amanita_muscaria
+NODE_5540_length_785_cov_2526.313559	NODE_5540_length_785_cov_2526.313559__
+MN963579.1 Amanita sp. 'austrowellsii' voucher RET 576-2 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	MN963579.1_Amanita_sp._'austrowellsii'
+NODE_2633_length_1785_cov_1664.764637	NODE_2633_length_1785_cov_1664.764637__
+NODE_1650_length_3451_cov_175.794309 dupelabel7	NODE_1650_length_3451_cov_175.794309_dupelabel7_
+MH486797.1 Amanita regalis voucher HKAS56699 28S ribosomal RNA gene, partial sequence	MH486797.1_Amanita_regalis
+MK571179.1 Amanita persicina voucher NAMA 2015-325 Mushroom Observer # 247288 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	MK571179.1_Amanita_persicina
+ON080962.1 Amanita persicina voucher VSC-F 0000251 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	ON080962.1_Amanita_persicina
+NODE_3793_length_1263_cov_902.958685 dupelabel1	NODE_3793_length_1263_cov_902.958685_dupelabel1_
+MK580715.1 Amanita muscaria var. formosa isolate 91 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	MK580715.1_Amanita_muscaria_var._formosa
+KU248115.1 Amanita wellsii voucher RET 387-5 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	KU248115.1_Amanita_wellsii
+KP313582.1 Amanita frostiana voucher RET 546-2 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	KP313582.1_Amanita_frostiana
+NODE_1650_length_3451_cov_175.794309 dupelabel1	NODE_1650_length_3451_cov_175.794309_dupelabel1_
+MT421963.1 Amanita sp. 'ameripanthera' voucher RET 042-1 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	MT421963.1_Amanita_sp._'ameripanthera'
+NODE_2445_length_2117_cov_2218.773529	NODE_2445_length_2117_cov_2218.773529__
+AB096050.1 Amanita muscaria var. regalis genes for 18S rRNA, ITS1, 5.8S rRNA, ITS2, 28S rRNA, partial and complete sequence, specimen_voucher: FB-30982(CBM)	AB096050.1_Amanita_muscaria_var._regalis
+KP313579.1 Amanita frostiana voucher RET 588-2 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	KP313579.1_Amanita_frostiana
+NODE_2636_length_1570_cov_492.735432 dupelabel2	NODE_2636_length_1570_cov_492.735432_dupelabel2_
+MW553145.1 Amanita regalis voucher seq_MP12 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	MW553145.1_Amanita_regalis
+NODE_1858_length_2622_cov_2128.668762 dupelabel2	NODE_1858_length_2622_cov_2128.668762_dupelabel2_
+NODE_7449_length_687_cov_6477.311475 dupelabel2	NODE_7449_length_687_cov_6477.311475_dupelabel2_
+KR919756.1 Amanita breckonii voucher RET 174-7 internal transcribed spacer 1 and 5.8S ribosomal RNA gene, partial sequence	KR919756.1_Amanita_breckonii
+MT421964.1 Amanita sp. 'ameripanthera' voucher RET 091-10 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	MT421964.1_Amanita_sp._'ameripanthera'
+OK346349.1 Amanita muscaria var. guessowii voucher MO395763 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	OK346349.1_Amanita_muscaria_var._guessowii
+MH603599.1 Amanita gioiosa voucher ML61952AG small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	MH603599.1_Amanita_gioiosa
+OK299151.1 Amanita wellsii voucher RET 654-2 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	OK299151.1_Amanita_wellsii
+KJ638272.1 Amanita muscaria var. guessowii isolate 2222 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	KJ638272.1_Amanita_muscaria_var._guessowii
+NODE_4426_length_1463_cov_3356.980519	NODE_4426_length_1463_cov_3356.980519__
+OP749133.1 Amanita parcivolvata isolate S.D. Russell ONT iNaturalist 129746568 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	OP749133.1_Amanita_parcivolvata
+EU071907.1 Amanita regalis strain GAL17647 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	EU071907.1_Amanita_regalis
+EU071912.1 Amanita muscaria strain RET036-3 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	EU071912.1_Amanita_muscaria
+MK580662.1 Amanita muscaria var. formosa isolate 5552 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	MK580662.1_Amanita_muscaria_var._formosa
+EU071917.1 Amanita muscaria strain RET303-4 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	EU071917.1_Amanita_muscaria
+NODE_1650_length_3451_cov_175.794309 dupelabel3	NODE_1650_length_3451_cov_175.794309_dupelabel3_
+KP313594.1 Amanita wellsii voucher RET 395-6 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	KP313594.1_Amanita_wellsii
+NODE_6285_length_857_cov_6044.569231	NODE_6285_length_857_cov_6044.569231__
+DQ060905.1 Amanita regalis strain GAL3169 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence	DQ060905.1_Amanita_regalis
+NODE_789_length_8011_cov_59.802370 dupelabel1	NODE_789_length_8011_cov_59.802370_dupelabel1_
+MT421962.1 Amanita sp. 'ameripanthera' voucher RET 173-10 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	MT421962.1_Amanita_sp._'ameripanthera'
+MZ667934.1 Amanita parcivolvata voucher S.D. Russell Mushroom Observer # 208217 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence	MZ667934.1_Amanita_parcivolvata
+KP866193.1 Amanita muscaria voucher RET 514-2 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence	KP866193.1_Amanita_muscaria
+NODE_1650_length_3451_cov_175.794309	NODE_1650_length_3451_cov_175.794309__
