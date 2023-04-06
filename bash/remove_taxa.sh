@@ -7,6 +7,7 @@
 
 # $2 is argument for locus 
 
-while read ID; do
-    seqkit grep -rvip "^${ID}" ${1}
-done < ${2}_taxa_removed.txt
+seqkit grep -f ${2}_taxa_removed.txt -v ${1} -o ${3}_tmp.fa 
+
+mafft --auto --adjustdirectionaccurately ${3}_tmp.fa > ${3}
+

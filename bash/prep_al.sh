@@ -25,4 +25,4 @@ trimal -in prepped_${1} -out for_phylo_${1}
 
 seqkit rmdup -n for_phylo_${1} > fully_prepped_${1}
 
-rm temp_file.txt temp_2.txt prepped_${1} for_phylo_${1}
+rm temp_file.txt temp_2.txt prepped_${1}
