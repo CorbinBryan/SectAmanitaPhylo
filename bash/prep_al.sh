@@ -3,6 +3,8 @@
 # A script to prepare taxa names for downstream analysis using awk commands 
 
 # .tsv with two columns: original name and new name. 
+
+# Format of input is $./bash/prep_names.sh <old name> <new name>
 awk 'BEGIN {
     OFS="_"
 }
@@ -17,6 +19,8 @@ else
 
 sed 's/>//g' temp_file.txt > temp_2.txt
 
-seqkit replace --quiet -p "(.+)" -r '{kv}'  -k temp_2.txt ${1} > p_${1}
+seqkit replace --quiet -p "(.+)" -r '{kv}'  -k temp_2.txt ${1} > prepped_${1}
 
-rm temp_file.txt temp2_file.txt
+trimal -in prepped_${1} -out ${1}_for_phylo.fa
+
+rm temp_file.txt temp_2.txt prepped_${1}
