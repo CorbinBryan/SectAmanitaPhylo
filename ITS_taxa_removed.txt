@@ -24,3 +24,4 @@ DQ060889.1_Amanita_regalis
 DQ060885.1_Amanita_regalis
 DQ060884.1_Amanita_regalis
 EU071980.1_Amanita_regalis
+_R_AF159064.1_Amanita_muscaria_var._persicina
