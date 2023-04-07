@@ -16,10 +16,12 @@ Sequences were obtained from GenBank, and the accessions listed in the directory
 Note that these genomes are not yet publically available. 
 
 ## Alignment 
-Each concatenated `.fasta` was aligned separately using two independent alignment softwares. (disucss this more later)
+Each concatenated `.fasta` was aligned separately using two independent alignment softwares. (disucss this more later). 
 
-FastTree was used to construct a tree Each alignment was manually inspected, and overly gappy sequences were removed. A list of the removed sequences can be found in the `*_taxa_removed.txt` files in this directory. See my `remove_taxa.sh` script for details on how this was performed. Note that this script calls mafft on any input file it receives to update an alignment from which taxa were removed. 
+Following alignment, a custom script, `prep_fa.sh` was used to alter the fasta sequence headers such that they contained the GenBank ID, if applicable, and the full taxon name. 
 
-To prepare taxa for phylogenetic analysis, a small pipeline was written to rename taxa, remove sequences with duplicated headers, and trim the alignment using TrimAl. Details of this can be found in `prep_al.sh`. 
+Each alignment was manually inspected, and the headers for low quality sequences were recorded. Then, FastTree was used to construct a maximum likelihood phylogeny. For each gene tree, members of a given species that did not form a clade with the other members of that species were removed. Indels are common in fungi, especially in the ITS region and intronic sequences. Moreover, the rDNA cistron (which contains both the LSU and ITS sequences) is not single copy. Thus, it seemed appropriate to remove such sequences. The list of the removed sequences can be found in the `*_taxa_removed.txt` files in this directory. See my `remove_taxa.sh` script for details on how this was performed. This script is intended to remove certain sequences from the initial concatenated file and calls mafft once again. 
 
-## Constructing MP & Distance Trees  
+The `remove_taxa.sh` script also filters out duplicated sequences prior to alignment and trims the alignment with TrimAl. 
+
+## Constructing MP & Distance Trees 
