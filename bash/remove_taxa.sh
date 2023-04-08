@@ -9,9 +9,9 @@
 
 seqkit grep -f ${2}_taxa_removed.txt -v ${1} -o ${3}_tmp.fa 
 
-seqkit rmdup -n ${3}_tmp.fa > 2_${3}_tmp.fa
+#seqkit rmdup -n ${3}_tmp.fa > 2_${3}_tmp.fa
 
-seqkit rmdup -s 2_${3}_tmp.fa > 3_${3}_tmp.fa 
+#seqkit rmdup -s 2_${3}_tmp.fa > 3_${3}_tmp.fa 
 
 mafft --auto --adjustdirectionaccurately 3_${3}_tmp.fa > 4_${3}_tmp.fa
 

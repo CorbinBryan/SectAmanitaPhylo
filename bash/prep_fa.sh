@@ -15,10 +15,10 @@ else if($3=="muscaria" && ($4=="var." || $4=="subsp."))
     print $0"\t"$1,$2,$3,$4,$5"\t"$0
 else
     print $0"\t" $1,$2,$3"\t"$0
-}' ${1} > temp_file.txt 
+}' ./RawData/GB_fa/${1}_GenBank.fasta > temp_file.txt 
 
 sed 's/>//g' temp_file.txt > temp_2.txt
 
-seqkit replace --quiet -p "(.+)" -r '{kv}'  -k temp_2.txt ${1} > prepped_${1}
+seqkit replace --quiet -p "(.+)" -r '{kv}'  -k temp_2.txt ./RawData/GB_fa/${1}_GenBank.fasta > ./RawData/prepped_fa/prep_${1}.fasta
 
 rm temp_file.txt temp_2.txt 
