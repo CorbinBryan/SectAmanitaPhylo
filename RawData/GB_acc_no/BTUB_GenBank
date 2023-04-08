@@ -48,13 +48,17 @@ DQ060915.1
 # A. subvelatipes n.p. s. RET - no seqs available
 # A. velatipes
 MH485837.1
-# A. tlaxcalipanthera - no seqs
-# A. wellsii - no seq
-# A. austrowellsii - no seq
-# A. parcivolvata - no seqs 
-# A. rubescens
-MT993797.1
-MH485733.1
-MH485732.1
-MH485731.1
-MH485730.1
+# A. pantherina
+MH485671
+MH485670
+AB095875
+AB095873
+AB095872
+# A. ibotengutake 
+AB095847
+AB095848
+# A. concentrica 
+AB095849	
+# A. sinensis
+AB095864	
+AB095865
