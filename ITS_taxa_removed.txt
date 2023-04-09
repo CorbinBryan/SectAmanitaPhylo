@@ -1,9 +1,4 @@
 MG966273.1_Chalciporus_rubinellus
-NODE_1431_length_3573_cov_194.603261__
-_R_NODE_1431_length_3573_cov_194.603261__
-NODE_1650_length_3451_cov_175.794309__
-_R_NODE_1650_length_3451_cov_175.794309__
-NODE_789_length_8011_cov_59.802370__
 HQ539800.1_Amanita_frostiana
 _R_AF159064.1_Amanita_muscaria_var._persicina
 _R_X15411.1_Pig_part
@@ -25,3 +20,4 @@ DQ060885.1_Amanita_regalis
 DQ060884.1_Amanita_regalis
 EU071980.1_Amanita_regalis
 _R_AF159064.1_Amanita_muscaria_var._persicina
+>_R_X15411.1_Pig_part
