@@ -3,7 +3,7 @@
 # A script to run raxml-ng and iqtree2 on a given data set
 # Corbin T. Bryan, March 23, 2023
 
-MSA="$1"
+MSA=$(echo "$1" | sed 's/_ready.fa//g')
 
 # Note 1: IQTree model selector suggests: K3Pu+F+R3; nevertheless, I've chosen the general time reversible model for the RAxML run
 #   with different rates (i.e., +G = Gama Distribution for independent rate estimates throughout diff. lineages), mostly for to 
@@ -24,12 +24,12 @@ MSA="$1"
 #   more accurate than IQTree2. 
 
 # STEP 1: Check if data is appropriate for RAxML-NG
-raxml-ng --msa "$MSA".fasta \
+raxml-ng --msa ./DerivedData/fully_processed_al/${MSA}_ready.fa \
 --model GTR+G \
 --check 
 
 # STEP 2: Infer ML Phylo Using RAxML-NG 
-raxml-ng --all --msa "$MSA".fasta \ 
+raxml-ng --all --msa ./DerivedData/fully_processed_al/${MSA}_ready.fa \ 
 --model GTR+G \ 
 --prefix "$MSA" \
 --threads 2 \
@@ -42,13 +42,11 @@ for i in $(find . -type f ! -name "*.fasta"); do
     mv ${i} ./RAxML_out_"$MSA"
 done
 
-tar -zcvf RAxML_out.tar.gz RAxML_out
-
-mv RAxML_out.tar.gz /staging/bryan7 
+tar -zcvf RAxML_out_${MSA}.tar.gz RAxML_out_"$MSA"
 
 # Now, run IQtree2
 # STEP 4: Infer ML Phylo using IQTree2 
-iqtree -s "$MSA".fasta 
+iqtree -s ./DerivedData/fully_processed_al/${MSA}_ready.fa
 
 # STEP 5: Wrangle IQtree outputs, transfer to your staging directory
 mkdir iqtree_out_"$MSA"
@@ -57,7 +55,6 @@ for i in $(find . -type f ! -name "*.fasta"); do
 done
 
 tar -zcvf iqtree_out_"$MSA".tar.gz iqtree_out_"$MSA"
-mv iqtree_out_"$MSA".tar.gz /staging/bryan7 
 
 # STEP 6: remove all files from working directory 
 rm -r iqtree_out_"$MSA"
