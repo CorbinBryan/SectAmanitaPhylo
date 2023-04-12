@@ -19,6 +19,7 @@ done
 ```  
 Manually examine each `*_ready.nex` file to ensure EMBOSS' `seqret` did it's job. Then run `sed 's/antherina//g' [NEXUS FILE]` on each nexus file. 
 3. run `mb [NEXUS FILE]` on eqach nexus file
+4. Examine the tracers provided by the MrBayes program to assess convergence and mixing. 
 ## IQTree2 & RAxML-NG 
 1. For my own convenience, I have a single script that calls both RAxML and IQtree2. This is a one step process I've automated with my `ml.sh` script. To save time, I like to loop over each of my alignments with the following: 
 ```{sh}
