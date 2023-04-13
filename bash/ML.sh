@@ -54,10 +54,8 @@ for i in $(find . -type f ! -name "*.fasta"); do
     mv "$i" ./iqtree_out_"$MSA"
 done
 
-tar -zcvf iqtree_out_"$MSA".tar.gz iqtree_out_"$MSA"
-
 # STEP 6: remove all files from working directory 
 rm -r iqtree_out_"$MSA"
 rm -r RAxML_out_"$MSA"
 
-rm "$MSA".fasta 
+rm "$MSA".fasta

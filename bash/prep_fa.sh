@@ -12,9 +12,9 @@ awk 'BEGIN {
 if($3=="sp.") 
     print $1,$2,$3,$4"\t"$0
 else if($3=="muscaria" && ($4=="var." || $4=="subsp."))
-    print $0"\t"$1,$2,$3,$4,$5"\t"$0
+    print $1,$2,$3,$4,$5"\t"$0
 else
-    print $0"\t" $1,$2,$3"\t"$0
+    print $1,$2,$3"\t"$0
 }' ./RawData/GB_fa/${1}_GenBank.fasta > temp_file.txt 
 
 sed 's/>//g' temp_file.txt > temp_2.txt

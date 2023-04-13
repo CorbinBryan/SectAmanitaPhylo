@@ -144,5 +144,6 @@ Backup[ ]of[ ]*.numbers/
 *.tree
 ### Mathematica
 *.nb
-.Rproj.user
+*.Rproj.user
 *.nex
+*.treefile
