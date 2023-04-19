@@ -43,7 +43,6 @@ MCMC requires a lengthy burn in period and convergence and mixing must be manual
 
 ---
 
-
 ## IQTree2 & RAxML-NG 
 1. For my own convenience, I have a single script that calls both RAxML and IQtree2. This is a one step process I've automated with my `ml.sh` script. To save time, I like to loop over each of my alignments with the following: 
 ```{sh}
@@ -51,7 +50,6 @@ for FILE in $(ls ./DerivedData/fully_processed_al); do
     ./bash/ml.sh "$FILE"
 done
 ```
-
 ## Species Trees with ASTRAL 
 1. I've prepared a script named `astral_prep.sh` that will repare .fa files to be made into trees for ASTRAL. It should edits the sequence headers in each `.fa` file in `./DerivedData/fully_processed_al`. Given the relatively low number of taxa, I went ahead and edited many of these by hand. This script is really only optimized for the ITS data, which contain many more accession and would take longer to edit by hand. Nevertheless, I ran the script on all four loci. 
 ```{sh}
