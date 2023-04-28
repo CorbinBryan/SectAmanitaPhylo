@@ -147,3 +147,4 @@ Backup[ ]of[ ]*.numbers/
 *.Rproj.user
 *.nex
 *.treefile
+sp_accession*.txt
