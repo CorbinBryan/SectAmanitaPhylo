@@ -1,0 +1,234 @@
+---
+title: "R Notebook"
+---
+
+```{r}
+setwd("~/Documents/AM_master_scripts")
+library(ggplot2)
+library(ggtree)
+library(treeio)
+library(magrittr)
+library(dplyr)
+library(ape)
+library(stringr)
+library(tidytree)
+library(tracerer)
+library(tracer)
+
+```
+## 
+```{r}
+#Set outgroup vectors
+ogITS <- c("JX844685.1_Amanita_caesarea", "JX844686.1_Amanita_caesarea")
+ogLSU <- c("KF877205.1_Amanita_caesarea", "KF877206.1_Amanita_caesarea")
+ogBTU <- c("MH485671.1_Amanita_pantherina", "MH485670.1_Amanita_pantherina")
+ogEF1 <- c("KF877105_Amanita_caesarea", "KF877106.1_Amanita_caesarea")
+#Read in trees & root
+iq_ITS <- read.newick("./astral/update_ITS_ready2.fa.treefile") %>% 
+  ape::root(., outgroup = ogITS)
+iq_LSU <- read.newick("./iqtree/update_LSU_ready.fa.treefile") %>% 
+  ape::root(., outgroup = ogLSU)
+iq_BTU <- read.newick("./iqtree/update_BTUB_ready.fa.treefile") %>% 
+  ape::root(., outgroup = ogBTU)
+iq_EF1 <- read.newick("./iqtree/update_EF1_ready.fa.treefile" ) %>% 
+  ape::root(., outgroup = ogEF1)
+
+ra_ITS_tree <- read.tree("./raxml_out/P1.raxml.bestTreeCollapsed")  %>% 
+  ape::root(., outgroup = ogITS)
+#ra_ITS_bs <- read.newick("./raxml_out/P1.raxml.support") %>% 
+  ape::root(., outgroup = ogITS)
+#ra_ITS <- c(ra_ITS_tree, ra_ITS_bs)
+#class(ra_ITS) <- "multiPhylo"
+
+ra_LSU <- read.tree("./raxml_out/P2.raxml.bestTreeCollapsed") %>% 
+  ape::root(., outgroup = ogLSU)
+ra_BTU <- read.newick("./raxml_out/P3.raxml.bestTree") %>% 
+  ape::root(., outgroup = ogBTU)
+ra_EF1 <- read.newick("./raxml_out/P4.raxml.bestTree") %>% 
+  ape::root(., outgroup = ogEF1)
+#Read in astral tree
+astral_tree <- read.tree("./astral/species.tre") %>% 
+  ape::root(., outgroup = "A_caesarea", resolve.root = TRUE)
+#Read in beast trees 
+b_ITS <- read.beast("./BEAST/beast_ITS.tre")
+b_LSU <- read.beast("./BEAST/beast_LSU.tre")
+b_BTU <- read.beast("./BEAST/beast_BTUB.tre")
+b_EF1 <- read.beast("./BEAST/beast_EF1.tre")
+#Read in Bayesian Coalescent Trees
+sb2_tree <- read.beast("./starbeast3_try3/stb3_attempt3.tre") 
+```
+##
+
+```{r}
+ra_lsuplot <- ggtree(ra_LSU) + 
+  geom_tree(aes( x, y)) + theme_tree() + 
+  xlim(0,1.2) + geom_tiplab(size = 1.9) + geom_treescale() + 
+  ggtitle(label = "LSU")
+
+ra_itsplot <-ggtree(ra_ITS_tree) + 
+  geom_tree(aes( x, y)) + theme_tree() + 
+  xlim(0,0.8) + geom_tiplab(size = 1.7) + geom_treescale() + ggtitle(label = "ITS")
+plot_iq_itslsu <- grid.arrange(ra_itsplot, ra_lsuplot, ncol=2)
+ggsave("~/Desktop/ra_its_lsu.jpeg", plot_iq_itslsu, width = 9)
+```
+
+```{r}
+iq_Data <-as_tibble(as.treedata(iq_ITS))
+
+
+iqITS_LSU <- c(iq_ITS, iq_LSU)  
+names(iqITS_LSU) <- c("ITS", "LSU") 
+iqITS_LSU[[1]]$.id <- "ITS" 
+iqITS_LSU[[2]]$.id <- "LSU"
+ggtree(iq_ITS) + geom_tree(aes(x, y), size = 0.3) +
+  theme_tree() + 
+  geom_tiplab(size = 1.4) + 
+  geom_nodelab(size = 1.8, hjust = 1.6, vjust = 1.2) + 
+  geom_treescale(fontsize = 2.4) +  xlim(0, .8) + ggtitle(label = "ITS") -> plot_iq_ITS
+  #plot_iqvra
+
+ggtree(iq_LSU) + geom_tree(aes(x, y), size = 0.2) +
+  theme_tree() + 
+  geom_tiplab(size = 1.4) + 
+  geom_nodelab(size = 1.8, hjust = 1.6, vjust = 1.2) + 
+  geom_treescale(fontsize = 2.4) +  xlim(0, .4) + 
+  ggtitle(label = "LSU") -> plot_iq_LSU
+  #plot_iqvra
+
+library(gridExtra)
+
+plot_iq_itslsu <- grid.arrange(plot_iq_ITS, plot_iq_LSU, ncol=2)
+
+ggsave("~/Desktop/iq_its_lsu.jpeg", plot_iq_itslsu, width = 10, height = 7)
+```
+##
+```{r}
+species <- astral_tree$tip.label 
+species2 <- str_replace_all(species, "A_", "Amanita ") %>% 
+  str_replace_all("m_var_", "muscaria var. ") %>% 
+  str_replace_all("m_subsp_", "muscaria subsp. ")
+astral_mapping <- data.frame(species, species2)
+colnames(astral_mapping) <- c("label", "label2")
+ggtree(astral_tree, ladderize=FALSE, branch.length = .01) %<+% astral_mapping +
+  geom_tree(aes(x,y), size = 1) + 
+  theme_tree() + 
+  geom_tiplab(aes(label = label2),  fontface = "italic", pos = 3) +
+  geom_nodelab() + 
+  xlim(-4, 20) + ggtitle("Species Tree, ASTRAL") -> plot_astral
+plot_astral
+ggsave("~/Desktop/astral.jpeg", plot = plot_astral)
+```
+##
+```{r}
+sp_sb2 <- sb2_tree@phylo[["tip.label"]]
+sp_sb22 <- str_replace_all(sp_sb2, "Amanita_", "A. ") %>% 
+  str_replace_all("m_var_", "muscaria var. ") %>% 
+  str_replace_all("m_subsp_", "muscaria subsp. ") %>%
+  str_replace_all("_", " ")
+sb2_map <- data.frame(sp_sb2, sp_sb22)
+colnames(sb2_map) <- c("label", "label2")
+sb2_data <- sb2_tree@data %>% data.frame()
+ggtree(sb2_tree) %<+% sb2_map +
+  geom_tree() + 
+  geom_cladelab(node = 31, label = "Clade A", offset = 0.08,
+                align = TRUE) + 
+  geom_tiplab(aes(label = label2), fontsize = 0.15, fontface = "italic") + 
+  geom_nodelab(aes(label = format(round(posterior, 2), nsmall = 2), 
+                   fontsize = 0.4), vjust = -0.6, hjust = 1.1) +
+  xlim(0,0.2) + geom_treescale() + theme_tree() + 
+  geom_cladelab(node = 28, label = "Clade B", offset = 0.08,
+                align = TRUE) + 
+  geom_cladelab(node = 38, label = "Clade C", offset = 0.08,
+                align = TRUE) + 
+  geom_cladelab(node = 41, label = "Clade D", offset = 0.08,
+                align = TRUE) +
+  ggtitle("Species Tree, starBEAST3, strict clock") -> plot_sb2
+
+plot_sb2
+ggsave("~/Desktop/sb2.jpeg", plot = plot_sb2)
+```
+##
+```{r}
+b_ITS_sp <- b_ITS@phylo[["tip.label"]]
+b_ITS_sp2 <- str_replace_all(b_ITS_sp, "A_", "Amanita ") %>% 
+  str_replace_all("Amanita", "A.") %>%
+  str_replace_all("m_var_", "muscaria var. ") %>% 
+  str_replace_all("m_subsp_", "muscaria subsp. ") %>%
+  str_replace_all("_", " ") %>% sub(".*? ", "", .)
+
+b_ITS_map <- data.frame(b_ITS_sp, b_ITS_sp2)
+colnames(b_ITS_map) <- c("label", "label2")
+ggtree(b_LSU) + 
+#%<+% b_ITS_map + 
+  geom_tree() + 
+  geom_tiplab(size = 2) + 
+  geom_nodelab(aes(label = format(round(posterior, 2), nsmall = 2)), hjust = 1) + 
+  geom_treescale(fontsize = 2) + 
+  theme_tree() + xlim(0,0.5) +
+  ggtitle("ITS Gene Tree, BEAST2") -> plot_b_ITS
+#ggsave("~/Desktop/bITS.jpeg")
+```
+##
+```{r}
+iq_ITS_sp <- iq_ITS$tip.label
+iq_ITS_sp2 <- str_replace_all(q_ITS_sp, "A_", "Amanita ") %>% 
+  str_replace_all("Amanita", "A.") %>%
+  str_replace_all("m_var_", "muscaria var. ") %>% 
+  str_replace_all("m_subsp_", "muscaria subsp. ") %>%
+  str_replace_all("_", " ") %>% sub(".*? ", "", .)
+iq_ITS_mapping <- data.frame(iq_ITS_sp, iq_ITS_sp2)
+colnames(iq_ITS_mapping) <- c("label", "label2")
+n_loci_ITS <- iq_ITS_mapping %>% group_by(label2) %>% summarise(n = n())
+colnames(n_loci_ITS) <- c("label2", "n_ITS")
+
+
+iq_LSU_sp <- iq_LSU$tip.label
+iq_LSU_sp2 <- str_replace_all(iq_LSU_sp, "A_", "Amanita ") %>% 
+  str_replace_all("Amanita", "A.") %>%
+  str_replace_all("m_var_", "muscaria var. ") %>% 
+  str_replace_all("m_subsp_", "muscaria subsp. ") %>%
+  str_replace_all("_", " ") %>% sub(".*? ", "", .)
+iq_LSU_mapping <- data.frame(iq_LSU_sp, iq_LSU_sp2)
+colnames(iq_LSU_mapping) <- c("label", "label2")
+n_loci_LSU <- iq_LSU_mapping %>% group_by(label2) %>% summarise(n = n())
+colnames(n_loci_LSU) <- c("label2", "n_LSU")
+
+iq_BTU_sp <- iq_BTU$tip.label
+iq_BTU_sp2 <- str_replace_all(iq_BTU_sp, "A_", "Amanita ") %>% 
+  str_replace_all("Amanita", "A.") %>%
+  str_replace_all("m_var_", "muscaria var. ") %>% 
+  str_replace_all("m_subsp_", "muscaria subsp. ") %>%
+  str_replace_all("_", " ") %>% sub(".*? ", "", .)
+iq_BTU_mapping <- data.frame(iq_BTU_sp, iq_BTU_sp2)
+colnames(iq_BTU_mapping) <- c("label", "label2")
+n_loci_BTU <- iq_BTU_mapping %>% group_by(label2) %>% summarise(n = n())
+colnames(n_loci_BTU) <- c("label2", "n_BTU")
+
+iq_EF1_sp <- iq_EF1$tip.label
+iq_EF1_sp2 <- str_replace_all(iq_EF1_sp, "A_", "Amanita ") %>% 
+  str_replace_all("Amanita", "A.") %>%
+  str_replace_all("m_var_", "muscaria var. ") %>% 
+  str_replace_all("m_subsp_", "muscaria subsp. ") %>%
+  str_replace_all("_", " ") %>% sub(".*? ", "", .)
+iq_EF1_mapping <- data.frame(iq_EF1_sp, iq_EF1_sp2)
+colnames(iq_EF1_mapping) <- c("label", "label2")
+n_loci_EF1 <- iq_EF1_mapping %>% group_by(label2) %>% summarise(n = n())
+colnames(n_loci_EF1) <- c("label2", "n_EF1")
+
+n_loci_all <- full_join(n_loci_ITS, n_loci_LSU) %>%
+  full_join(., n_loci_BTU) %>%
+  full_join(., n_loci_EF1)
+
+n_loci_all <- replace(n_loci_all, is.na(n_loci_all), 0)
+```
+##
+```{r}
+gene_log_full <- parse_beast_tracelog_file("./BEAST/starbeast.log")
+gene_log <- remove_burn_ins(
+  gene_log_full,
+  burn_in_fraction = 0.1
+)
+esses <- calc_esses(gene_log, sample_interval = 1000)
+
+ggplot(data = gene_log, aes( x = Sample, y = posterior)) + geom_line()
+```
